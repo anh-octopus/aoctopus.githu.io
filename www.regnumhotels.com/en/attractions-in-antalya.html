@@ -1,0 +1,2358 @@
+<!DOCTYPE html>
+<!--[if IE 9]>     <html class="ie9" lang="en" dir="ltr"> <![endif]--> 
+<!--[if !IE]><!--> <html lang="en" dir="ltr">             <!--<![endif]--> 
+
+<!-- Mirrored from www.regnumhotels.com/en/attractions-in-antalya.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Aug 2017 04:10:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+		<title>Things To Do in Belek &amp; Sightseeing Antalya | Regnum Resort Holidays</title>
+	<meta name="description" content="Regnum Carya Golf &amp; Spa Resort offers 5-star accommodation near the best activities, holiday attractions and things to see in Belek-Antalya." />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<meta name="google-site-verification" content="Z84lMeoatOm6p3tRHdYTYTgOBCtL9NGQvYipQ7tSULg" />
+	<meta name="msvalidate.01" content="BC9D06017BD187DA4850E9652254904B" />
+	<meta name="p:domain_verify" content="3fddf66d637348fdb3277b8a9d5a0eef"/>
+	
+		
+		
+		
+		
+		
+	<!-- HREFLANG DEFINITIONS -->	
+	
+	<link rel="alternate" href="attractions-in-antalya.html" hreflang="en" />
+	
+	<link rel="alternate" href="http://www.regnumhotels.com/tr/turistik-yerler-antalya.html" hreflang="tr" />
+	
+	<link rel="alternate" href="http://www.regnumhotels.com/ru/attractions.html" hreflang="ru" />
+	
+	<link rel="alternate" href="http://www.regnumhotels.com/de/sehenswuerdigkeiten-in-belek-antalya.html" hreflang="de" />
+
+
+	<!-- STYLES FOR SCREEN -->
+
+	<!-- BEGIN: ADDED HEADER CONTENT -->
+	<script type="text/javascript" src="../condor/js/essentials.js"></script>
+			<script type="text/javascript">
+			//<![CDATA[
+				condor.siteBaseHREF     = 'http://www.regnumhotels.com/';
+				condor.templateBaseHREF = 'http://www.regnumhotels.com/templates/main/';
+				condor.condorBaseHREF   = 'http://www.regnumhotels.com/condor/';
+				condor.currentLanguage  = 'en';
+				condor.dataSection      = 'regnum';
+			//]]>
+			</script>
+<script type="text/javascript" src="../condor/modules/imageSwitch/javascript.imageSwitch.js"></script>
+<link rel="stylesheet" type="text/css" href="../condor/modules/imageSwitch/style.imageSwitch.css"/>
+<link type="text/css" rel="stylesheet" href="../d/regnum/merged/global_f9_2017-04-25-13-57_3923182638.css" />
+
+<link rel="stylesheet" type="text/css" href="../templates/main/css/global.fonts.css"/>
+
+
+
+
+
+
+<script type="text/javascript" src="../d/regnum/merged/global_f3_2016-05-24-11-26_2578605390.js"></script>
+
+
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;libraries=places&amp;key=AIzaSyA4vy_6SjdLA-rQFo-MZKYKIjJALHGmGE0"></script>
+
+<script type="text/javascript" src="../condor/modules/googleAnalytics/javascript.googleAnalytics.js"></script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+
+		function addGaTrackingLinksAndForms()
+		{
+			if( typeof gaTracking === 'function'){
+				gaTracking.tagHyperlinks('default', 'ihotelier.com');
+				gaTracking.tagForms('default', 'ihotelier.com','1');
+			}
+		}
+	//]]>
+	</script><link rel="stylesheet" type="text/css" href="../templates/main/cookienotice/style.cookies.css"/>
+
+	<script type="text/javascript">
+	//<![CDATA[
+		var googleMaps = {};
+		googleMaps.markers = new Array();
+		googleMaps.hotelMarker;
+		var infoWindow;
+		var usingGPSPos = false;
+		var tryUsingGPSPos = false;
+		var directionsDisplay;
+		var map;
+  		var directionsService = new google.maps.DirectionsService();
+		var markersArray = new Array();
+		var changePinMarkers = false;
+		var zoomLevel;
+
+		googleMaps.load = function(id, type, lat, lng, zoom, customMapOptions) {
+			map = document.getElementById(id);
+			if (!map) return;
+			var mapOptions = {
+				mapTypeId: type,
+				center: new google.maps.LatLng(lat,lng),
+				zoom: zoom,
+				scrollwheel: true,
+				disableDefaultUI:true
+			}
+			for (a in customMapOptions) {
+				mapOptions[a] = customMapOptions[a];
+			}
+			hotelLatLng = mapOptions.center;
+			
+			
+			var rendererOptions = {
+			  suppressMarkers : true
+			}
+			
+			
+			directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
+			var map = new google.maps.Map(map, mapOptions);
+			var styles = [
+			  {
+				featureType: "poi.business",
+				elementType: "labels",
+				stylers: [
+				  { visibility: "off" }
+				]
+			  }
+			];
+			map.setOptions({styles: styles});
+			directionsDisplay.setMap(map);
+			return map;
+		};	
+
+			
+		// MARKERS	
+		googleMaps.addMarker = function(map, lat, lng, title, category, markerId, open, customMarkerOptions) {
+		
+			var str =title,
+				individualCat = individualCat;
+				
+			var catNew = category.split(" ");	
+				
+			category = catNew[0];
+			individualPointers = catNew[1];
+			
+			str = str.replace(/\W/g, ' ');
+			str = str.replace(/ 27/g, "'");
+			str = str.replace(/ 28/g, "(");
+			str = str.replace(/ 29/g, ")");
+		
+			if (!map) return;
+			if (category == "hotel") { 
+				var iconInfo = new google.maps.MarkerImage('../templates/main/images/map/hotel-pin.png',
+								new google.maps.Size(51, 69),
+								new google.maps.Point(0,0), 
+								new google.maps.Point(13,32)); 
+			}
+			else{
+			
+				var iconInfo = new google.maps.MarkerImage('../templates/main/images/map/attraction-pin.png',
+									new google.maps.Size(35, 40),
+									new google.maps.Point(0,0), 
+									new google.maps.Point(13,32)); 
+			}
+			
+			 
+			var markerOptions = {
+				position: new google.maps.LatLng(lat, lng),
+				map: map,
+				icon: iconInfo,
+				title: str,
+				visible: false
+			}
+			for (a in customMarkerOptions) {
+				markerOptions[a] = customMarkerOptions[a];
+			}
+
+			var marker = new google.maps.Marker(markerOptions);
+			marker.category = category;
+			marker.individualCat = individualCat;
+			marker.lat = lat;
+			marker.lng = lng;
+			if (category != "hotel"){
+				marker.setVisible(true);
+				googleMaps.markers[googleMaps.markers.length] = marker;
+			} else {
+				marker.setVisible(true);
+				googleMaps.hotelMarker = marker;
+			}
+                
+			var infoBoxOptions = {
+					content: document.getElementById(markerId),
+					disableAutoPan: false,
+					maxWidth: 0,
+					pixelOffset: new google.maps.Size(15, -90),
+					zIndex: null,
+					boxStyle: { 
+					  background: "#fff",
+					  border: "1px solid #b49b66",
+					  width: "220px",
+					  height: "auto",
+					  padding: "10px 10px 10px 20px"
+					 },
+					closeBoxMargin: "0px",
+					closeBoxURL: "http://www.regnumhotels.com/templates/main/images/map/close.png",
+					infoBoxClearance: new google.maps.Size(1, 1),
+					isHidden: false,
+					pane: "floatPane",
+					enableEventPropagation: false
+			};
+			
+			google.maps.event.addListener(marker, 'click', function() {
+				if (infoWindow) infoWindow.close();
+				infoWindow = new InfoBox(infoBoxOptions);
+				infoWindow.open(map, marker);
+				if (!open) {
+					
+				}
+			});	
+			
+			google.maps.event.addListener(map, 'zoom_changed', function() {
+				updateZoomSelector();
+			});
+		};
+		
+		googleMaps.removeMarker = function(map) {
+		    for(var i=0; i<googleMaps.markers.length; i++){
+		        googleMaps.markers[i].setMap(null);
+		    }
+		    googleMaps.markers = new Array();
+		};
+		
+		var activeCats = [];		 		
+		//shows all markers of a particular category
+		function showCategoryMarkers(category,type) {
+			
+			//var activeCats = [];
+			
+			directionsDisplay.set('directions', null);
+			clearOverlays();
+			jQuery("span.distance,span.duration").text("");
+			
+			if (infoWindow) infoWindow.close();
+			var markers = googleMaps.markers;
+			var numMarkers = markers.length;
+			
+			if (numMarkers>0){
+			
+				var bounds = new google.maps.LatLngBounds();
+				 
+				/*$('.map-categories .activeCat').each(function(){
+				
+					activeCats.push($(this).children('a').attr('class'));
+				
+				});
+				activeCats.push(category);*/
+				
+				//var bounds = new google.maps.LatLngBounds();
+				
+				bounds.extend(new google.maps.LatLng(googleMaps.hotelMarker.lat,googleMaps.hotelMarker.lng));
+				
+				for (var i=0; i<numMarkers; i++) {
+				
+					if(type=="individual"){
+						if (markers[i].individualCat == category) {
+							
+							markers[i].setVisible(true);
+						
+							bounds.extend(new google.maps.LatLng(markers[i].lat, markers[i].lng));
+						}else{
+							markers[i].setVisible(false);
+						}
+					}else{
+						if(category=="all"){
+							markers[i].setVisible(true);
+							bounds.extend(new google.maps.LatLng(markers[i].lat, markers[i].lng));
+						}else{
+							markers[i].setVisible(false);
+							
+							activeCats.forEach(function(entry) {
+								if(markers[i].category == entry){
+									markers[i].setVisible(true);
+									bounds.extend(new google.maps.LatLng(markers[i].lat, markers[i].lng));
+								}
+							});
+						}
+					}
+					
+					
+					
+				}
+		
+				if (numMarkers > 3){
+					googleMaps.currentMap.fitBounds(bounds);
+				}else{
+					//var zoom = googleMaps.currentMap.getZoom() - 5;
+					//console.log(zoom);
+					googleMaps.currentMap.setZoom();
+				}
+
+			}
+			else{
+				googleMaps.currentMap.panTo(hotelLatLng);
+				
+			}
+			
+		}
+		
+		//hides all markers of a particular category
+		function hideCategoryMarkers(category) {
+			for (var i=0; i<googleMaps.markers.length; i++) {
+			  if (googleMaps.markers[i].category == category) {
+				googleMaps.markers[i].setVisible(false);
+			  }
+			}
+			//close the info window, in case it's open on a marker that we just hid
+			//if (infoWindow) infoWindow.close();
+		}
+		
+		//functions for creating the roadmaps
+		function getMapsDirections(){
+			if(usingGPSPos){
+				var request = {
+			        origin:hotelLatLng, 
+			        destination:hotelLatLng,
+			        travelMode: google.maps.DirectionsTravelMode.DRIVING
+			    };
+			    
+			    directionsService.route(request, function(response, status) {
+			      if (status == google.maps.DirectionsStatus.OK) {
+			        directionsDisplay.setDirections(response);
+			      } else {
+			      	alert('Sorry but the Google Directions Service did response with an error.');
+			      }
+			    });
+			} else {
+				alert('Sorry but the GPS feature does not seem to be available');
+				return;
+			}
+		
+		}
+		
+		function calcRoute(start, end, mode) {
+			showCategoryMarkers('hotel');
+			var request = {
+					origin:start,
+					destination:end,
+					travelMode: google.maps.TravelMode[mode]
+				};
+			directionsService.route(request, function(response, status) {
+			  if (status == google.maps.DirectionsStatus.OK) {
+				// Display the distance:
+				jQuery("span.distance").text('- '+response.routes[0].legs[0].distance.text+', ');
+				
+				// Display the duration:	
+				jQuery("span.duration").text(response.routes[0].legs[0].duration.text);
+				
+				directionsDisplay.setDirections(response);
+				//directionsDisplay.setMap(map);
+				//directionsDisplay.setPanel(document.getElementById("directions"));
+				
+				var leg = response.routes[0].legs[0];
+				makeMarker(leg.start_location);
+				
+			  } else {
+				alert('Sorry but the Google Directions Service did response with an error.');
+			  }
+			 // scrollToMap('#attraction-map',100);
+			});
+		}
+		
+		function scrollToMap(mapElem,correction){
+			var scrollTopVal = jQuery(mapElem).offset().top - correction;
+			
+			jQuery('html,body').animate({scrollTop: scrollTopVal});
+		}
+		
+		function clearOverlays() {
+		  for (var i = 0; i < markersArray.length; i++ ) {
+		   markersArray[i].setMap(null);
+		  }
+		}
+		
+		function makeMarker(position) {
+			var iconInfo = new google.maps.MarkerImage('../templates/main/images/map/attraction.html',
+					new google.maps.Size(22, 31),
+					new google.maps.Point(0,0), 
+					new google.maps.Point(11,29));
+				
+				var directionMarker = new google.maps.Marker({
+					 position: position,
+					  map: googleMaps.currentMap,
+					 icon: iconInfo
+				});  
+					
+				markersArray.push(directionMarker);
+		}
+
+		function updateZoomSelector(){
+			var zoom = googleMaps.currentMap.getZoom();
+			if((zoom>0) && (zoom<20)) {
+				var inc = 150 - (zoom*7); 
+				jQuery("#map_controls .zoom .zoom-selector").animate({"top": inc}, "fast");
+			}
+		}
+		
+		//toggle map visualization
+		function toggleMapButton(view_mode){
+			if(view_mode == 'satellite'){
+				googleMaps.currentMap.setMapTypeId(google.maps.MapTypeId.SATELLITE); 
+			}
+			else if(view_mode == 'panorama'){
+				panorama = googleMaps.currentMap.getStreetView();
+				panorama.setPosition(hotelLatLng);
+					panorama.setPov({
+					  heading: -265,
+					  pitch:0}
+					);
+					panorama.setVisible(true);
+			}else{
+				googleMaps.currentMap.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+			}
+		}
+		
+		function resizeGoogleMap() {
+			google.maps.event.trigger(googleMaps.currentMap, 'resize');
+		}
+		
+	//]]>
+	</script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			function weatherInit(wObj) {
+				HTTP.getText(prepSocketCall('templateHelpers', 'weather2', {  s: wObj.s, l: wObj.l, d: wObj.d, i: wObj.id, f: wObj.f,langCode:wObj.langCode}), function(html) {
+					document.getElementById(wObj.id).innerHTML = html;
+				});
+			}
+		/* ]]> */
+		</script><link rel="stylesheet" type="text/css" href="../condor/modules/socialToolbar/css/style.socialToolbar-common.css"/>
+<link rel="stylesheet" type="text/css" href="../condor/modules/socialToolbar/css/style.socialToolbar-horizontal.css"/>
+<script type="text/javascript" src="../condor/modules/socialToolbar/javascript/json2.min.js"></script>
+<script type="text/javascript" src="../condor/modules/socialToolbar/javascript/javascript.socialToolbar.js"></script>
+<script type="text/javascript">
+
+var isMobile = 0;
+var isTablet = 0;
+
+   //if jquery is not present, insert
+if(!window.jQuery)
+{
+   var script = document.createElement('script');
+   script.type = "text/javascript";
+   script.src = "../condor/modules/socialToolbar/javascript/jquery-1.7.1.min.js";
+   document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+//Social toolbar Options
+var socialToolbarSettings= {'closeButton'            : 'Share',
+                            'shareLabelHorizontal'   : 'Share',
+                            'shareLabelVertical'     : '',
+                            'minimzedLabelHorizontal': 'Share',
+                            'minimzedLabelVertical'  : '',
+                            'labelLeftContent'       : '',
+                            'labelRightContent'      : ''
+                            };
+</script>		
+
+<!--[if lt IE 10]>
+<script type="text/javascript" src="http://www.regnumhotels.com/condor/modules/socialToolbar/javascript/pie.js"></script>
+<![endif]-->
+ 
+
+     <style type="text/css">
+        #socialToolbarContainer,
+        #SocialToolbarActiveWindow,
+        #socialToolbarContainer #socialToolbarInnerMin,
+        #socialToolbarContainer .inner_toolbar .shareLeft .contentLeft ul,
+        #socialToolbarContainer .inner_toolbar .shareRight .contentLeft ul{
+             border:1px solid #003244;
+        }
+             
+        #SocialToolbarActiveWindow,
+        #socialToolbarContainer.stLayout1 #socialToolbarBackground,
+        #socialToolbarContainer.stLayout1 #socialToolbarInnerMin,
+        #socialToolbarContainer .inner_toolbar .shareLeft .contentLeft ul,
+        #socialToolbarContainer .inner_toolbar .shareRight .contentLeft ul{
+                background-color:#003244; 
+                color:#fff;
+                background-image: linear-gradient(bottom, #003244 0%, #003244 100%);
+                background-image: -o-linear-gradient(bottom, #003244 0%, #003244 100%);
+                background-image: -moz-linear-gradient(bottom, #003244 0%, #003244 100%);
+                background-image: -webkit-linear-gradient(bottom, #003244 0%, #003244 100%);
+                background-image: -ms-linear-gradient(bottom, #003244 0%, #003244 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003244', endColorstr='#003244',GradientType=0 );
+        }
+                
+        #socialToolbarContainer.stLayout2  #socialToolbarBackground{
+                background-color:#003244; 
+                background: -moz-linear-gradient(left,  #003244 0%, #003244 100%);
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,#003244), color-stop(100%,#003244));
+                background: -webkit-linear-gradient(left,  #003244 0%,#003244 100%);
+                background: -o-linear-gradient(left,  #003244 0%,#003244 100%);
+                background: -ms-linear-gradient(left,  #003244 0%,#003244 100%);
+                background: linear-gradient(to right,  #003244 0%,#003244 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003244', endColorstr='#003244',GradientType=1 );
+        
+       }
+        #socialToolbarContainer.stLayout3  #socialToolbarBackground{
+                background-color:#003244; 
+                background: -moz-linear-gradient(left,  #003244 0%, #003244 100%);
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,#003244), color-stop(100%,#003244));
+                background: -webkit-linear-gradient(left,  #003244 0%,#003244 100%);
+                background: -o-linear-gradient(left,  #003244 0%,#003244 100%);
+                background: -ms-linear-gradient(left,  #003244 0%,#003244 100%);
+                background: linear-gradient(to right,  #003244 0%,#003244 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003244', endColorstr='#003244',GradientType=1 );
+        }
+
+        #socialToolbarContainer.stLayout1,
+        #socialToolbarContainer.stLayout2, 
+        #socialToolbarContainer.stLayout3,
+		#socialToolbarContainer a,
+        #socialToolbarContainer .stdButton { 
+                color:#fff;
+           }
+
+        #socialToolbarContainer .findUs,
+        #socialToolbarContainer .minimized,
+        #SocialToolbarActiveWindow .winHeader,
+        #SocialToolbarActiveWindow .winLink,
+        #SocialToolbarActiveWindow #iframe_mail body{
+                color:#fff;
+        }
+        #SocialToolbarActiveWindow #iframe_mail body a{
+                color:#fff;
+        }
+
+        </style>
+      
+    <script type="text/javascript" src="../condor/modules/socialToolbar/javascript/jquery.cookie.js"></script>
+
+
+	<!-- END: ADDED HEADER CONTENT -->
+	
+	<script type="text/javascript">
+//<![CDATA[
+	jQuery(document).ready(function(){
+		$.browser = ''; //toolbar borwser fix
+		// BEGIN: onLoadScript
+		//Add google parameters to links and forms
+			if (typeof addGaTrackingLinksAndForms === "function") { 
+				addGaTrackingLinksAndForms();
+			}
+
+	/* BEGIN: Create Cookie Notice */
+	
+	if(cookieMonster.readCookie(cookieMonster.cookieName) == null){
+	
+		var cookienoticeID = "cookie-notice",
+			cookieNoticeMoreClass = "find-more",
+			cookieNoticeMoreInfo = "more-info",
+			cookieNoticeClose = "close",
+			cookieNoticeHTML = '<div id="'+cookienoticeID+'"><div class="intro"><p>This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. <a class="'+cookieNoticeMoreClass+'" href="http://www.regnumhotels.com/terms-and-conditions-en.html">More</a></p><a class="'+cookieNoticeClose+'" href="#">Close</a></div><div class="'+cookieNoticeMoreInfo+'"></div></div>';
+		
+		jQuery(document.body).prepend(cookieNoticeHTML);
+		jQuery( "#header-wrapper, #home-logo" ).addClass( "showcookie" );
+		
+		jQuery("#"+cookienoticeID+" ."+cookieNoticeMoreClass+"[href='#']").bind("click", function(e){
+			e.preventDefault();
+			jQuery("#"+cookienoticeID+" ."+cookieNoticeMoreInfo).slideToggle();
+		});
+		jQuery("#"+cookienoticeID+" ."+cookieNoticeClose).bind("click", function(e){
+			e.preventDefault();
+			cookieMonster.createCookie(cookieMonster.cookieName,'1',365);
+			if(cookieMonster.readCookie(cookieMonster.cookieName) != null){
+				jQuery("#"+cookienoticeID).slideUp();
+				jQuery( "#header-wrapper, #home-logo" ).removeClass( "showcookie" );
+			}
+		});
+	
+	}
+	
+	/* END: Create Cookie Notice */
+
+	
+	//================ SET CLASS FOR EACH RESOLUTION =======================
+			
+			var browserWidth = $(window).width();
+			var zoomLevel = 7;
+			if (browserWidth >= 1024) {
+				zoomLevel = 8;
+			} else if (browserWidth < 1024 && browserWidth >= 768) {
+				zoomLevel = 6;
+			}else{
+				zoomLevel = 5;
+			}
+			
+			googleMaps.map = googleMaps.load('map', google.maps.MapTypeId.ROADMAP, 36.657622,29.505617, zoomLevel, {});
+			googleMaps.currentMap = googleMaps.map;
+			
+		
+		//PAN EVENTS
+		jQuery("#map_controls .pan .arrow").click(function(event) {
+			var arrowSide = $(this).attr("class");
+			
+			var increment = 40;
+			if (arrowSide == "left arrow"){ googleMaps.currentMap.panBy(-increment,0); }
+			else if (arrowSide == "right arrow"){ googleMaps.currentMap.panBy(increment,0); }
+			else if (arrowSide == "up arrow"){ googleMaps.currentMap.panBy(0,-increment); }
+			else if (arrowSide == "down arrow"){ googleMaps.currentMap.panBy(0,increment); }
+			else if (arrowSide == "center arrow"){ googleMaps.currentMap.panTo(hotelLatLng); }			
+		});
+		
+		//ZOOM EVENTS
+		jQuery("#map_controls .zoom .button").click(function(event) { 
+			var button = $(this).attr("class");
+			var maxZoom = 21; var minZoom = 0;
+			if(button == "zoom-in button" && googleMaps.currentMap.getZoom()<21){ 
+				googleMaps.currentMap.setZoom(googleMaps.currentMap.getZoom()+1); 
+				//jQuery("#map_controls .zoom .zoom-selector").animate({"top": "-=1px"}, "fast");
+			}
+			else if(button == "zoom-out button" && googleMaps.currentMap.getZoom()>1){ 
+				googleMaps.currentMap.setZoom(googleMaps.currentMap.getZoom()-1); 
+				//jQuery("#map_controls .zoom .zoom-selector").animate({"top": "+=1px"}, "fast");
+			}
+		});
+					googleMaps.addMarker(googleMaps.map, 36.865523, 31.009673, "Carya+Golf+Club", 'entertainment', 'map-marker111', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.872475, 30.986563, "National+Golf+Club", 'entertainment', 'map-marker121', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.9388583, 31.1700261, "Aspendos+Theatre", 'cultural', 'map-marker131', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.963611, 30.726747, "Duden+Waterfalls", 'cultural', 'map-marker141', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.9612, 30.8512113, "The+Ancient+City+of+Perge", 'cultural', 'map-marker151', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.7640693, 31.3847262, "Temple+of+Apollo", 'cultural', 'map-marker161', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.862622, 31.005617, "Regnum+Carya+Golf+And+Spa+Resort", 'hotel', 'map-marker41', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+
+
+weatherInit({id:'weather1', s:'accuweather', l:'cityId:316965', d:'2', f:'',langCode:'en'});
+
+/* SOCIAL TOOLBAR INIT -------------------*/
+
+//Social Toolbar Init
+socialtoolbar.toolbar_init('{"toolbar_enabled":"1","layout":"1","color":"-1","recommend_email":"1","dataSection":"regnum","module_path":"attractions-in-antalya.html\/\/www.regnumhotels.com\/condor\/modules\/socialToolbar","only_icons":"1","minimized":"","icon_preset":"3","fb_type":"","extend":"1","rounded":"","toolbar_label":"1","toolbarSize":"","share_tooltip":"1","fontColor":"fff"}','{"recommend_0":"1","recommend_1":"1","recommend_2":"1","recommend_3":"1","n_buttons":4}','{"Facebook":{"enabled":"1","url":"https:\/\/www.facebook.com\/regnumcarya "},"Twitter":{"enabled":"1","username":"regnumcarya","keyword":"{HotelBrand hotel} OR OtherKeyword"},"YouTube":{"enabled":"1","url":"https:\/\/www.youtube.com\/watch?v=oQvSp3XchOA"},"GooglePlus":{"enabled":"","googleid":"","googleapikey":"","url":"https:\/\/plus.google.com\/110333832047691503368"},"Instagram":{"enabled":"1","userid":"853969338","accesstoken":"853969338.1677ed0.f831db03081c4a07a5eb22180ff1cde4","clientid":"","url":"instagram.com\/regnumcarya"},"Tumblr":{"enabled":"","tumblracct":"","tumblrapikey":"","url":"http:\/\/"},"Tripadvisor":{"enabled":"1","url":"http:\/\/www.tripadvisor.com.tr\/Hotel_Review-g312725-d5484934-Reviews-Regnum_Carya_Golf_Spa_Resort-Belek_Turkish_Mediterranean_Coast.html"}}','http://www.regnumhotels.com/condor/modules/socialToolbar');
+
+//Twitter API
+window.twttr = (function (d,s,id) {
+						  var t, js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+						  js.src="../../platform.twitter.com/widgets.js"; js.type = 'text/javascript'; fjs.parentNode.insertBefore(js, fjs);
+						  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+						}(document, "script", "twitter-wjs"));
+
+//Facebook API
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../../connect.facebook.net/en_US/all.js#xfbml=1";
+  js.type = 'text/javascript';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+//Google Plus
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = '../../apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+  
+//SocialToolbar Analytics
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../condor/modules/socialToolbar/javascript/javascript.socialAnalytics.js";
+  js.type = 'text/javascript';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'socialToolbar-analytics'));
+
+/* END SOCIAL TOOLBAR INIT -------------------*/
+		// END: onLoadScript
+
+		/*Socialmedia icon*/	
+		extIconsOb= new Array({
+			name:'pinterest',
+			url:'http://www.pinterest.com/regnumcarya/'
+		});
+		var cRight = $('.contentRight div.socialToolbarButtonRight:last');
+		$.each(extIconsOb, function( key, value ) {		
+			$("<div class='socialToolbarButtonRight flat extraIcons "+this.name+"'><a href='"+this.url+"' target='_blank'>"+this.name+"</a></div>").insertAfter(cRight);
+		}); 
+		/*Socialmedia icon*/
+		if(jQuery().fancybox){ //namespace check
+			if(jQuery(window).width()>767){
+					jQuery('.fancy-image').fancybox({
+					
+						prevEffect	: 'fade',
+						nextEffect	: 'fade',
+						mouseWheel  : true,
+						padding: 0,
+						margin:[85,65,85,65],
+						arrows:true,
+						helpers : {
+								title: {
+									type: 'outside'
+								}
+							},beforeShow : function() {
+							this.title = (this.title ? '' + this.title + '' : '') + '<span clsaa="slidecount">' + (this.index + 1) + '/' + this.group.length+'</span>';
+						}/*,afterShow: function() {
+		            $('.fancybox-wrap').swipe({
+		                swipe : function(event, direction) {
+		                    if (direction === 'left' || direction === 'up') {
+		                        $.fancybox.prev();
+		                    } else {
+		                        $.fancybox.next();
+		                    }
+		                }
+		            });
+
+		        }*/
+					});
+		
+			}else{
+				jQuery('.fancy-image').fancybox({
+					prevEffect	: 'fade',
+					nextEffect	: 'fade',
+					mouseWheel  : true,
+					padding: 0,
+					margin:35,
+					arrows:true,
+					helpers : {
+							title: {
+								type: 'outside'
+							}
+						},beforeShow : function() {
+						this.title = (this.title ? '' + this.title + '' : '') + '<span clsaa="slidecount">' + (this.index + 1) + '/' + this.group.length+'</span>';
+					}/*,afterShow: function() {
+		            $('.fancybox-wrap').swipe({
+		                swipe : function(event, direction) {
+		                    if (direction === 'left' || direction === 'up') {
+		                        $.fancybox.prev();
+		                    } else {
+		                        $.fancybox.next();
+		                    }
+		                }
+		            });
+
+		        }*/
+				});
+			}
+		}
+		});
+		
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	var _regnum = {
+		language:'en-GB'
+	};
+
+//]]>
+</script>
+	
+	<!-- Google Analytics Classic -->
+	<script type="text/javascript">
+		//<![CDATA[
+		var _gaq = _gaq || [];
+		_gaq.push(['default._setAccount', 'UA-47163216-1']
+	, ['default._setDomainName', 'regnumhotels.com']
+	, ['default._setAllowLinker', true]
+	, ['default._addIgnoredRef', 'ihotelier.com, travelclick.com']
+	, ['default._setCustomVar', 5, 'tc', 'ih_98454-Toolbox 174', 3]
+	, ['default._trackPageview', '/en/attractions-in-antalya.html']
+	);
+		
+		if(!window._masterAnalytics){
+					_gaq.push(
+				['master._setAccount', 'UA-32962968-1'],
+				['master._setDomainName', 'regnumhotels.com'],
+				['master._setAllowLinker', true],
+				['master._setCustomVar', 5, 'tc', 'ih_98454-Toolbox 174', 3],
+				['master._trackPageview']
+			);
+					window._masterAnalytics = true;
+		}
+
+		(function() {
+			if (!window._gaScriptLoaded) {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+							ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				window._gaScriptLoaded = true;
+			}
+		})();
+		//]]>
+	</script>
+	<!-- End Google Analytics Classic -->
+
+	
+
+<script type="text/javascript">
+//<![CDATA[
+
+var cookieMonster = {
+	_counterCookieName: "useCookiesCounter",
+	cookieName: "useCookies",
+	mode: "lite",
+	useCounter: false,
+	loadCount: 2,
+	createCookie: function(name,value,days) {
+	
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			var expires = "; expires="+date.toGMTString();
+		}else{
+			var expires = "";
+		}
+		document.cookie = name+"="+value+expires+"; path=/";
+		
+	},
+	readCookie: function (name) {
+	
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+		
+	},
+	eraseCookie: function (name) {
+	
+		this.createCookie(name,"",-1);
+		
+	},
+	init: function(){
+	
+		var theMonster = this;
+		var counter = theMonster.readCookie(theMonster._counterCookieName);
+		
+		theMonster.useCounter = (theMonster.mode == "strict") ? false : true;
+		
+		if(counter == null && theMonster.useCounter){
+			
+			theMonster.createCookie(theMonster._counterCookieName,'1',365);
+			
+		}else if(counter != null && parseInt(counter) < theMonster.loadCount && theMonster.useCounter){
+			
+			theMonster.eraseCookie(theMonster._counterCookieName);
+			theMonster.createCookie(theMonster._counterCookieName,(parseInt(counter)+1).toString(),365);
+			
+		}else if(counter != null && parseInt(counter) == theMonster.loadCount && theMonster.useCounter){
+			
+			theMonster.createCookie(cookieMonster.cookieName,'1',365);
+			
+		}
+		
+		if((theMonster.readCookie(theMonster.cookieName) == null && theMonster.mode == "strict")){
+			window._gaScriptLoaded = true; // disable google analytics
+			window.addthis={}; // disable addthis
+			//window.twttr={};
+			//window.gapi={};
+			//window.FB=function(){};
+			//window.__twttrlr={};
+			
+		}
+		
+	}
+};
+
+
+(function() {
+	cookieMonster.init();
+})();
+
+window.cookieMonster = cookieMonster;
+
+//]]>
+</script>
+
+	
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter45114543 = new Ya.Metrika({
+                    id:45114543,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "../../mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45114543" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></head>
+
+<body id="page_attractions" class="viewSite page_attractions view-detail">
+<div id="condorAddBody">
+<div id="addBodyPopUps"></div>
+<div id="addBodyContent"><script type="text/javascript">
+	/* <![CDATA[ */
+		var axel = Math.random() + "", a = axel * 10000000000000;
+		document.write('<iframe src="https://5324316.fls.doubleclick.net/activityi;src=5324316;type=websi631;cat=carya123;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="position: absolute;"></iframe>');
+	/* ]]> */
+</script>
+<noscript>
+	<iframe src="https://5324316.fls.doubleclick.net/activityi;src=5324316;type=websi631;cat=carya123;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=1?" width="1" height="1" frameborder="0" style="position: absolute;"></iframe>
+</noscript></div>
+</div>
+
+<div class="header-wrapper">
+	<div class="header">
+		<div id="branding" class="logo">
+							<a href="default.html" title="Home"><img width="158" height="70" src="http://www.regnumhotels.com/templates/main/images/logo.svg?599d001e30bd5" lang="en" alt="Regnum Carya Golf &amp; Spa Resort" /></a>
+					</div>
+		
+		<div id="navigation" class="navigation menu">
+			<ul class="shortcuts"
+			><li class="shortcut1 item1 itemr10 level1 rooms"
+				><a href="rooms-and-villas-belek-antalya.html">Rooms</a
+			></li
+			><li class="shortcut2 item2 itemr9 level1 dining"
+				><a href="restaurants-belek-antalya.html">DINING</a
+			></li
+			><li class="shortcut3 item3 itemr8 level1 spa"
+				><a href="spa-wellness-belek-antalya.html">SPA</a
+			></li
+			><li class="shortcut4 item4 itemr7 level1 golf"
+				><a href="golf-holidays-belek-antalya.html">GOLF</a
+			></li
+			><li class="shortcut5 item5 itemr6 level1 meetings"
+				><a href="meetings-belek-antalya.html">MEETINGS</a
+			></li
+			><li class="shortcut6 item6 itemr5 level1 entertainment"
+				><a href="activities-belek-antalya.html">ENTERTAINMENT</a
+			></li
+			><li class="shortcut7 item7 itemr4 level1 sports"
+				><a href="sport-belek-antalya.html">Sports</a
+			></li
+			><li class="shortcut8 item8 itemr3 level1 family-services"
+				><a href="family-hotel-belek-antalya.html">Family Services</a
+			></li
+			><li class="shortcut9 item9 itemr2 level1 packages"
+				><a href="packages-belek-antalya.html">Offers</a
+			></li
+			><li class="shortcut10 item10 itemr1 level1 gallery last"
+				><a href="gallery.html">Gallery</a
+			></li
+		></ul>
+		<script type="text/javascript">
+		//<![CDATA[
+			condor.updatePageMenus = condor.updatePageMenus || function() {
+				var pageMenus = getElementsByClass('shortcuts', null, 'ul');
+				for (var j=0; j<pageMenus.length; ++j) {
+					var nojsList = getElementsByClass('active-nojs', pageMenus[j]);
+					for (var i=0; i<nojsList.length; ++i) {
+						removeClass(nojsList[i], 'active-nojs');
+					}
+				}
+			}
+			condor.updatePageMenus();
+		//]]>
+		</script>		</div>
+		
+		<div class="lang-bar">
+		<span class="active-lang-code img-sprite"></span>
+		<ul dir="ltr">
+				<li class="item1 active"><a>en</a></li>				<li class="item2"><a				href="http://www.regnumhotels.com/tr/turistik-yerler-antalya.html">tr</a></li>				<li class="item3"><a				href="http://www.regnumhotels.com/ru/attractions.html">ru</a></li>				<li class="item4 last"><a				href="http://www.regnumhotels.com/de/sehenswuerdigkeiten-in-belek-antalya.html">de</a></li></ul>		</div>
+		<a class="check-availability-link-btn" target="_blank" href="https://bookings.ihotelier.com/Regnum-Carya-Golf-And-Spa-Resort/bookings.jsp?children=0&amp;dateout=&amp;hotelid=98454&amp;adults=2&amp;datein=&amp;languageid=1#">CHECK AVAILABILITY</a>
+		<a class="scrolling-logo img-sprite" href="default.html"></a>
+		
+		<span class="menu-btn"><span class="menu-text">menu</span></span>
+	</div>
+</div>
+
+	<div id="holder"> 
+	<p id="breadcrumb">
+		 <span class="breadcrumb-item one">
+			<a class="no-text-decoration" href="default.html">Home</a>
+		</span>
+		<span class="first-sep breadcrumb-sep">></span>
+					<span class="breadcrumb-item two"><span class="subpage">attractions</span></span>
+		 
+	</p>
+
+			<div class="main-container-wrapper">
+			<div class="main-container">
+				<h1 class="main-title">Enjoy your holidays in Belek-Antalya</h1>
+				<div class="main-intro  more-content">
+					<h2>Sightseeing, Tourism and many things to do  </h2>
+<p>When it comes to exploring the best sightseeing attractions, things to do and places to visit in Antalya-Belek, Turkey, Regnum Carya Golf &amp; Spa Resort is the premier choice for unforgettable holidays. </p>
+<p>There are so many things to do, see and visit in Antalya City that it can be hard to plan your stay. The Regnum Carya staff is available to offer recommendations and assist with arranging tours, recreational adventures and more. </p>
+				</div>
+			</div>
+						<div class="map-wrapper">
+				<div class="attraction-map">
+
+					
+<div class="map" id="map" style="width:100%; height:100%;">
+	<span class="map-loading"></span>
+</div>
+<div class="markers" style="display:none;">
+		<div class="marker-content" id="map-marker111">
+			<div class="marker-body">
+				<h3>Carya Golf Club</h3>
+				
+			</div>
+		</div>		<div class="marker-content" id="map-marker121">
+			<div class="marker-body">
+				<h3>National Golf Club</h3>
+				
+			</div>
+		</div>		<div class="marker-content" id="map-marker131">
+			<div class="marker-body">
+				<h3>Aspendos Theatre</h3>
+				
+			</div>
+		</div>		<div class="marker-content" id="map-marker141">
+			<div class="marker-body">
+				<h3>Duden Waterfalls</h3>
+				
+			</div>
+		</div>		<div class="marker-content" id="map-marker151">
+			<div class="marker-body">
+				<h3>The Ancient City of Perge</h3>
+				
+			</div>
+		</div>		<div class="marker-content" id="map-marker161">
+			<div class="marker-body">
+				<h3>Temple of Apollo</h3>
+				
+			</div>
+		</div>		<div class="marker-content" id="map-marker41">
+			<div class="marker-body">
+				<h3>Regnum Carya Golf And Spa Resort</h3>
+				<p>Kadriye Bölgesi, Üçkum Tepesi Mevkii, <br />Belek-Antaly</p>
+			</div>
+		</div></div>
+
+
+	<script type="text/javascript">
+	//<![CDATA[
+		var googleMaps = {};
+		googleMaps.markers = new Array();
+		googleMaps.hotelMarker;
+		var infoWindow;
+		var usingGPSPos = false;
+		var tryUsingGPSPos = false;
+		var directionsDisplay;
+		var map;
+  		var directionsService = new google.maps.DirectionsService();
+		var markersArray = new Array();
+		var changePinMarkers = false;
+		var zoomLevel;
+
+		googleMaps.load = function(id, type, lat, lng, zoom, customMapOptions) {
+			map = document.getElementById(id);
+			if (!map) return;
+			var mapOptions = {
+				mapTypeId: type,
+				center: new google.maps.LatLng(lat,lng),
+				zoom: zoom,
+				scrollwheel: true,
+				disableDefaultUI:true
+			}
+			for (a in customMapOptions) {
+				mapOptions[a] = customMapOptions[a];
+			}
+			hotelLatLng = mapOptions.center;
+			
+			
+			var rendererOptions = {
+			  suppressMarkers : true
+			}
+			
+			
+			directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
+			var map = new google.maps.Map(map, mapOptions);
+			var styles = [
+			  {
+				featureType: "poi.business",
+				elementType: "labels",
+				stylers: [
+				  { visibility: "off" }
+				]
+			  }
+			];
+			map.setOptions({styles: styles});
+			directionsDisplay.setMap(map);
+			return map;
+		};	
+
+			
+		// MARKERS	
+		googleMaps.addMarker = function(map, lat, lng, title, category, markerId, open, customMarkerOptions) {
+		
+			var str =title,
+				individualCat = individualCat;
+				
+			var catNew = category.split(" ");	
+				
+			category = catNew[0];
+			individualPointers = catNew[1];
+			
+			str = str.replace(/\W/g, ' ');
+			str = str.replace(/ 27/g, "'");
+			str = str.replace(/ 28/g, "(");
+			str = str.replace(/ 29/g, ")");
+		
+			if (!map) return;
+			if (category == "hotel") { 
+				var iconInfo = new google.maps.MarkerImage('../templates/main/images/map/hotel-pin.png',
+								new google.maps.Size(51, 69),
+								new google.maps.Point(0,0), 
+								new google.maps.Point(13,32)); 
+			}
+			else{
+			
+				var iconInfo = new google.maps.MarkerImage('../templates/main/images/map/attraction-pin.png',
+									new google.maps.Size(35, 40),
+									new google.maps.Point(0,0), 
+									new google.maps.Point(13,32)); 
+			}
+			
+			 
+			var markerOptions = {
+				position: new google.maps.LatLng(lat, lng),
+				map: map,
+				icon: iconInfo,
+				title: str,
+				visible: false
+			}
+			for (a in customMarkerOptions) {
+				markerOptions[a] = customMarkerOptions[a];
+			}
+
+			var marker = new google.maps.Marker(markerOptions);
+			marker.category = category;
+			marker.individualCat = individualCat;
+			marker.lat = lat;
+			marker.lng = lng;
+			if (category != "hotel"){
+				marker.setVisible(true);
+				googleMaps.markers[googleMaps.markers.length] = marker;
+			} else {
+				marker.setVisible(true);
+				googleMaps.hotelMarker = marker;
+			}
+                
+			var infoBoxOptions = {
+					content: document.getElementById(markerId),
+					disableAutoPan: false,
+					maxWidth: 0,
+					pixelOffset: new google.maps.Size(15, -90),
+					zIndex: null,
+					boxStyle: { 
+					  background: "#fff",
+					  border: "1px solid #b49b66",
+					  width: "220px",
+					  height: "auto",
+					  padding: "10px 10px 10px 20px"
+					 },
+					closeBoxMargin: "0px",
+					closeBoxURL: "http://www.regnumhotels.com/templates/main/images/map/close.png",
+					infoBoxClearance: new google.maps.Size(1, 1),
+					isHidden: false,
+					pane: "floatPane",
+					enableEventPropagation: false
+			};
+			
+			google.maps.event.addListener(marker, 'click', function() {
+				if (infoWindow) infoWindow.close();
+				infoWindow = new InfoBox(infoBoxOptions);
+				infoWindow.open(map, marker);
+				if (!open) {
+					
+				}
+			});	
+			
+			google.maps.event.addListener(map, 'zoom_changed', function() {
+				updateZoomSelector();
+			});
+		};
+		
+		googleMaps.removeMarker = function(map) {
+		    for(var i=0; i<googleMaps.markers.length; i++){
+		        googleMaps.markers[i].setMap(null);
+		    }
+		    googleMaps.markers = new Array();
+		};
+		
+		var activeCats = [];		 		
+		//shows all markers of a particular category
+		function showCategoryMarkers(category,type) {
+			
+			//var activeCats = [];
+			
+			directionsDisplay.set('directions', null);
+			clearOverlays();
+			jQuery("span.distance,span.duration").text("");
+			
+			if (infoWindow) infoWindow.close();
+			var markers = googleMaps.markers;
+			var numMarkers = markers.length;
+			
+			if (numMarkers>0){
+			
+				var bounds = new google.maps.LatLngBounds();
+				 
+				/*$('.map-categories .activeCat').each(function(){
+				
+					activeCats.push($(this).children('a').attr('class'));
+				
+				});
+				activeCats.push(category);*/
+				
+				//var bounds = new google.maps.LatLngBounds();
+				
+				bounds.extend(new google.maps.LatLng(googleMaps.hotelMarker.lat,googleMaps.hotelMarker.lng));
+				
+				for (var i=0; i<numMarkers; i++) {
+				
+					if(type=="individual"){
+						if (markers[i].individualCat == category) {
+							
+							markers[i].setVisible(true);
+						
+							bounds.extend(new google.maps.LatLng(markers[i].lat, markers[i].lng));
+						}else{
+							markers[i].setVisible(false);
+						}
+					}else{
+						if(category=="all"){
+							markers[i].setVisible(true);
+							bounds.extend(new google.maps.LatLng(markers[i].lat, markers[i].lng));
+						}else{
+							markers[i].setVisible(false);
+							
+							activeCats.forEach(function(entry) {
+								if(markers[i].category == entry){
+									markers[i].setVisible(true);
+									bounds.extend(new google.maps.LatLng(markers[i].lat, markers[i].lng));
+								}
+							});
+						}
+					}
+					
+					
+					
+				}
+		
+				if (numMarkers > 3){
+					googleMaps.currentMap.fitBounds(bounds);
+				}else{
+					//var zoom = googleMaps.currentMap.getZoom() - 5;
+					//console.log(zoom);
+					googleMaps.currentMap.setZoom();
+				}
+
+			}
+			else{
+				googleMaps.currentMap.panTo(hotelLatLng);
+				
+			}
+			
+		}
+		
+		//hides all markers of a particular category
+		function hideCategoryMarkers(category) {
+			for (var i=0; i<googleMaps.markers.length; i++) {
+			  if (googleMaps.markers[i].category == category) {
+				googleMaps.markers[i].setVisible(false);
+			  }
+			}
+			//close the info window, in case it's open on a marker that we just hid
+			//if (infoWindow) infoWindow.close();
+		}
+		
+		//functions for creating the roadmaps
+		function getMapsDirections(){
+			if(usingGPSPos){
+				var request = {
+			        origin:hotelLatLng, 
+			        destination:hotelLatLng,
+			        travelMode: google.maps.DirectionsTravelMode.DRIVING
+			    };
+			    
+			    directionsService.route(request, function(response, status) {
+			      if (status == google.maps.DirectionsStatus.OK) {
+			        directionsDisplay.setDirections(response);
+			      } else {
+			      	alert('Sorry but the Google Directions Service did response with an error.');
+			      }
+			    });
+			} else {
+				alert('Sorry but the GPS feature does not seem to be available');
+				return;
+			}
+		
+		}
+		
+		function calcRoute(start, end, mode) {
+			showCategoryMarkers('hotel');
+			var request = {
+					origin:start,
+					destination:end,
+					travelMode: google.maps.TravelMode[mode]
+				};
+			directionsService.route(request, function(response, status) {
+			  if (status == google.maps.DirectionsStatus.OK) {
+				// Display the distance:
+				jQuery("span.distance").text('- '+response.routes[0].legs[0].distance.text+', ');
+				
+				// Display the duration:	
+				jQuery("span.duration").text(response.routes[0].legs[0].duration.text);
+				
+				directionsDisplay.setDirections(response);
+				//directionsDisplay.setMap(map);
+				//directionsDisplay.setPanel(document.getElementById("directions"));
+				
+				var leg = response.routes[0].legs[0];
+				makeMarker(leg.start_location);
+				
+			  } else {
+				alert('Sorry but the Google Directions Service did response with an error.');
+			  }
+			 // scrollToMap('#attraction-map',100);
+			});
+		}
+		
+		function scrollToMap(mapElem,correction){
+			var scrollTopVal = jQuery(mapElem).offset().top - correction;
+			
+			jQuery('html,body').animate({scrollTop: scrollTopVal});
+		}
+		
+		function clearOverlays() {
+		  for (var i = 0; i < markersArray.length; i++ ) {
+		   markersArray[i].setMap(null);
+		  }
+		}
+		
+		function makeMarker(position) {
+			var iconInfo = new google.maps.MarkerImage('../templates/main/images/map/attraction.html',
+					new google.maps.Size(22, 31),
+					new google.maps.Point(0,0), 
+					new google.maps.Point(11,29));
+				
+				var directionMarker = new google.maps.Marker({
+					 position: position,
+					  map: googleMaps.currentMap,
+					 icon: iconInfo
+				});  
+					
+				markersArray.push(directionMarker);
+		}
+
+		function updateZoomSelector(){
+			var zoom = googleMaps.currentMap.getZoom();
+			if((zoom>0) && (zoom<20)) {
+				var inc = 150 - (zoom*7); 
+				jQuery("#map_controls .zoom .zoom-selector").animate({"top": inc}, "fast");
+			}
+		}
+		
+		//toggle map visualization
+		function toggleMapButton(view_mode){
+			if(view_mode == 'satellite'){
+				googleMaps.currentMap.setMapTypeId(google.maps.MapTypeId.SATELLITE); 
+			}
+			else if(view_mode == 'panorama'){
+				panorama = googleMaps.currentMap.getStreetView();
+				panorama.setPosition(hotelLatLng);
+					panorama.setPov({
+					  heading: -265,
+					  pitch:0}
+					);
+					panorama.setVisible(true);
+			}else{
+				googleMaps.currentMap.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+			}
+		}
+		
+		function resizeGoogleMap() {
+			google.maps.event.trigger(googleMaps.currentMap, 'resize');
+		}
+		
+	//]]>
+	</script>
+<script type="text/javascript">	
+	//================ SET CLASS FOR EACH RESOLUTION =======================
+			
+			var browserWidth = $(window).width();
+			var zoomLevel = 7;
+			if (browserWidth >= 1024) {
+				zoomLevel = 8;
+			} else if (browserWidth < 1024 && browserWidth >= 768) {
+				zoomLevel = 6;
+			}else{
+				zoomLevel = 5;
+			}
+			
+			googleMaps.map = googleMaps.load('map', google.maps.MapTypeId.ROADMAP, 36.657622,29.505617, zoomLevel, {});
+			googleMaps.currentMap = googleMaps.map;
+			
+		
+		//PAN EVENTS
+		jQuery("#map_controls .pan .arrow").click(function(event) {
+			var arrowSide = $(this).attr("class");
+			
+			var increment = 40;
+			if (arrowSide == "left arrow"){ googleMaps.currentMap.panBy(-increment,0); }
+			else if (arrowSide == "right arrow"){ googleMaps.currentMap.panBy(increment,0); }
+			else if (arrowSide == "up arrow"){ googleMaps.currentMap.panBy(0,-increment); }
+			else if (arrowSide == "down arrow"){ googleMaps.currentMap.panBy(0,increment); }
+			else if (arrowSide == "center arrow"){ googleMaps.currentMap.panTo(hotelLatLng); }			
+		});
+		
+		//ZOOM EVENTS
+		jQuery("#map_controls .zoom .button").click(function(event) { 
+			var button = $(this).attr("class");
+			var maxZoom = 21; var minZoom = 0;
+			if(button == "zoom-in button" && googleMaps.currentMap.getZoom()<21){ 
+				googleMaps.currentMap.setZoom(googleMaps.currentMap.getZoom()+1); 
+				//jQuery("#map_controls .zoom .zoom-selector").animate({"top": "-=1px"}, "fast");
+			}
+			else if(button == "zoom-out button" && googleMaps.currentMap.getZoom()>1){ 
+				googleMaps.currentMap.setZoom(googleMaps.currentMap.getZoom()-1); 
+				//jQuery("#map_controls .zoom .zoom-selector").animate({"top": "+=1px"}, "fast");
+			}
+		});
+					googleMaps.addMarker(googleMaps.map, 36.865523, 31.009673, "Carya+Golf+Club", 'entertainment', 'map-marker111', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.872475, 30.986563, "National+Golf+Club", 'entertainment', 'map-marker121', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.9388583, 31.1700261, "Aspendos+Theatre", 'cultural', 'map-marker131', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.963611, 30.726747, "Duden+Waterfalls", 'cultural', 'map-marker141', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.9612, 30.8512113, "The+Ancient+City+of+Perge", 'cultural', 'map-marker151', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.7640693, 31.3847262, "Temple+of+Apollo", 'cultural', 'map-marker161', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+			googleMaps.addMarker(googleMaps.map, 36.862622, 31.005617, "Regnum+Carya+Golf+And+Spa+Resort", 'hotel', 'map-marker41', false, {});
+			
+		if(tryUsingGPSPos){	
+			if(navigator.geolocation) {
+			    navigator.geolocation.getCurrentPosition(function(position) {
+			      googleMaps.loc1 = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+			      usingGPSPos = true;
+			    }, function() {
+			      alert("Geolocation service failed.");
+			    });
+			  }	
+			$('#getMapDirectionsLink').click(function(e){
+				e.preventDefault();
+				if(usingGPSPos){
+					getMapsDirections();
+				}
+			});
+		}
+</script>
+					
+						<div id="map_controls">
+							<div class="zoom">
+								<div class="zoom-in btn"></div>
+								<div class="zoom-out btn"></div>
+							</div>
+						</div>
+				</div>
+				<div class="news-rotator">
+					
+
+
+
+	<div class="news_rotator cycle-slideshow"
+	data-cycle-slides=".news-itm"
+	data-cycle-pager="#pager"
+	data-cycle-timeout="2500"
+	data-cycle-speed="1500"
+	data-cycle-fx="fade"
+	data-cycle-auto-height=container
+	data-cycle-swipe="true">
+					<div class="news-itm itm1">
+					<div class="news-items-block"  data-clickhref="http://www.regnumhotels.com/en-news-best-golf-holidays-in-antalya.html">
+						<div class="news-img-wrapper clickhref">																
+					<div class="news-img inview-image" data-url="http://www.regnumhotels.com/d/regnum/media/__thumbs_400_243_crop/CARYA_FLOODLIGHT.jpg"></div>
+													
+					<div class="news-img inview-image" data-url="http://www.regnumhotels.com/d/regnum/media/__thumbs_400_243_crop/Carya_Golf_regnum.jpg"></div>
+													
+					<div class="news-img inview-image" data-url="http://www.regnumhotels.com/d/regnum/media/__thumbs_400_243_crop/National_Golf_Club.jpg"></div>
+										</div>				<div class="news-content-wrapper clickhref">
+					<div class="news-content clickhref">
+						<h3 class="news-title clickhref" data-clickhref="http://www.regnumhotels.com/en-news-best-golf-holidays-in-antalya.html" >Golf enthusiasts, wait no more! This year enjoy the best golf holidays in Antalya, Turkey</h3>
+						<p class="news-intro clickhref"  data-clickhref="http://www.regnumhotels.com/en-news-best-golf-holidays-in-antalya.html" > Try some of the best golf courses in the world. A golf holiday in Belek, Antalya won’t let you down  It may be for the thrill of </p>
+						<a class="read-more-link" href="http://www.regnumhotels.com/en-news-best-golf-holidays-in-antalya.html">Read More</a>					</div>
+				</div>			</div>
+			</div>			<div class="news-itm itm2">
+					<div class="news-items-block"  data-clickhref="http://www.regnumhotels.com/en-news-the-top-must-see-natural-wonders-in-and-around-belek.html">
+						<div class="news-img-wrapper clickhref">																
+					<div class="news-img inview-image" data-url="http://www.regnumhotels.com/d/regnum/media/__thumbs_400_243_crop/Kurunlu_Waterfall_in_Antalya_43a290.jpg"></div>
+													
+					<div class="news-img inview-image" data-url="http://www.regnumhotels.com/d/regnum/media/__thumbs_400_243_crop/loggerhead_turtle_in_Antalaya.jpg"></div>
+													
+					<div class="news-img inview-image" data-url="http://www.regnumhotels.com/d/regnum/media/__thumbs_400_243_crop/Cirali_Beach_in_Antalya.jpg"></div>
+										</div>				<div class="news-content-wrapper clickhref">
+					<div class="news-content clickhref">
+						<h3 class="news-title clickhref" data-clickhref="http://www.regnumhotels.com/en-news-the-top-must-see-natural-wonders-in-and-around-belek.html" >The Top Must See Natural Wonders In And Around Belek</h3>
+						<p class="news-intro clickhref"  data-clickhref="http://www.regnumhotels.com/en-news-the-top-must-see-natural-wonders-in-and-around-belek.html" > The majority of a trip to Belek has to be spent exploring the natural wonders of Antalya. We’ve selected the top unmissable natur</p>
+						<a class="read-more-link" href="http://www.regnumhotels.com/en-news-the-top-must-see-natural-wonders-in-and-around-belek.html">Read More</a>					</div>
+				</div>			</div>
+			</div>
+	</div>	<div class="caption-wrapper">
+		<div class="cycle-pager" id="pager"></div>
+	</div>
+
+				</div>
+			</div>
+					</div>
+						<div class="module-area-wrapper">
+			<div class="module-area">
+				<div id="mod_pukkaActivities" class="moduleOutput viewListByCategories">
+	
+	<div class="moduleBody">
+			<div class="attraction-list-wrapper">
+		<div class="attraction-filter">
+			<div class="attraction-list">
+				<div id="markers" class="category-wrapper">
+					<ul class="map-categories">
+								<li class="category-item category-1 activeCat">
+			<a class="all" title=""> All
+				<span class="marker-check-box"></span>
+			</a>
+		</li>
+			
+		<li class="category-item category-2">
+			<a class="cultural" title="">CULTURAL 
+				<span class="marker-check-box"></span>
+			</a>
+		</li>
+			
+		<li class="category-item category-3">
+			<a class="entertainment" title="">ENTERTAINMENT 
+				<span class="marker-check-box"></span>
+			</a>
+		</li>
+		
+					</ul>
+				</div>
+			</div>
+		</div>
+		<span class="fllter-label mobile-only"></span>
+		<div class="fliter-list">
+						<div class="item-Preview mob-flt-item show-item all item1 cultural" data-categoryid="cultural">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/shutterstock_115950643.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">CULTURAL </span>
+					<span class="itm-distance">25 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">Aspendos Theatre</h3>
+			<p class="item-intro"> It’s the oldest and best-preserved of Anatolia’s Roman theatres. You can see an epitaph on the south parados, where it is written that the theatre was built by the architect Zeno. He was the son of an Aspendian named Theodoros in the reign of Marcus Aurelius (161 to 180 AC).  </p>
+			<p class="item-intro desktop"> It’s the oldest and best-preserved of Anatolia’s Roman theatres. You can see an epitaph on the south parados, where it is written that the theatre&hellip;</p>
+			<p class="item-intro portrait"> It’s the oldest and best-preserved of Anatolia’s Roman theatres. You can see&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/aspendos-theatre.html">Read More</a>
+				</div>
+					</div>
+			<div class="item-Preview mob-flt-item show-item all item2 cultural alt" data-categoryid="cultural">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/duden.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">CULTURAL </span>
+					<span class="itm-distance">39 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">Duden Waterfalls</h3>
+			<p class="item-intro"> When you visit the Duden Waterfalls, you’ll enjoy a pleasant day trip from Antalya. The upper waterfall is 15 metres (49 feet) high and 20 metres (65 feet) wide. It’s also set in a scenic valley. The natural cave behind the falls is perfect for relaxing while watching the water. For dining and relaxation,&hellip;</p>
+			<p class="item-intro desktop"> When you visit the Duden Waterfalls, you’ll enjoy a pleasant day trip from Antalya. The upper waterfall is 15 metres (49 feet) high and 20 metres&hellip;</p>
+			<p class="item-intro portrait"> When you visit the Duden Waterfalls, you’ll enjoy a pleasant day trip from&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/duden-waterfalls.html">Read More</a>
+				</div>
+					</div>
+			<div class="item-Preview mob-flt-item show-item all item3 cultural thr" data-categoryid="cultural">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/shutterstock_279403043.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">CULTURAL </span>
+					<span class="itm-distance">23 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">The Ancient City of Perge</h3>
+			<p class="item-intro"> Perge was originally built around 1500 B.C. and remains an awe-inspiring sight to this day. The stadium, one of the best-preserved of the ancient world, has a 1,000-square-yard field and an original seating capacity of around 12,000 people. It's now a modest showcase for carvings from around the city.&hellip;</p>
+			<p class="item-intro desktop"> Perge was originally built around 1500 B.C. and remains an awe-inspiring sight to this day. The stadium, one of the best-preserved of the ancient&hellip;</p>
+			<p class="item-intro portrait"> Perge was originally built around 1500 B.C. and remains an awe-inspiring sight&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/the-ancient-city-of-perge.html">Read More</a>
+				</div>
+					</div>
+			<div class="item-Preview mob-flt-item show-item all item4 cultural alt" data-categoryid="cultural">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/apollo.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">CULTURAL </span>
+					<span class="itm-distance">55 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">Temple of Apollo</h3>
+			<p class="item-intro"> A must visit for romantics and history lovers, the Temple of Apollo is believed to be the place where Anthony met Cleopatra. During this meeting, he presented the Apollo Temple as a token of his love and devotion to her. Situated next to the ancient harbor, the temple dates back to the 2nd century AD&hellip;</p>
+			<p class="item-intro desktop"> A must visit for romantics and history lovers, the Temple of Apollo is believed to be the place where Anthony met Cleopatra. During this meeting,&hellip;</p>
+			<p class="item-intro portrait"> A must visit for romantics and history lovers, the Temple of Apollo is believed&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/temple-of-apollo.html">Read More</a>
+				</div>
+					</div>
+			<div class="item-Preview mob-flt-item show-item all item1 entertainment" data-categoryid="entertainment">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/Carya_Golf_7_5f5111.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">ENTERTAINMENT </span>
+					<span class="itm-distance">0,1 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">Carya Golf Club</h3>
+			<p class="item-intro"> Belek is Turkey’s premier destination for golf holidays and our Carya Golf Club offers an elegant layout in the traditional English architectural style.  The Championship Golf Course at Carya Golf Club was designed by Thomson Perrett &amp; Lobb Golf Course Architects, which was founded by five-time&hellip;</p>
+			<p class="item-intro desktop"> Belek is Turkey’s premier destination for golf holidays and our Carya Golf Club offers an elegant layout in the traditional English architectural&hellip;</p>
+			<p class="item-intro portrait"> Belek is Turkey’s premier destination for golf holidays and our Carya Golf&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/carya-golf-club.html">Read More</a>
+				</div>
+					</div>
+			<div class="item-Preview mob-flt-item show-item all item2 entertainment alt" data-categoryid="entertainment">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/National_Golf_Club_-23.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">ENTERTAINMENT </span>
+					<span class="itm-distance">3 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">National Golf Club</h3>
+			<p class="item-intro"> The National Golf Club offers something special for all levels of golfers. For those just starting out, there is a professional team of highly trained PGA pros who will look after your swing. Following a lesson or a game of golf, you can take advantage of 40 bay Driving Range, 2 chipping and putting&hellip;</p>
+			<p class="item-intro desktop"> The National Golf Club offers something special for all levels of golfers. For those just starting out, there is a professional team of highly&hellip;</p>
+			<p class="item-intro portrait"> The National Golf Club offers something special for all levels of golfers.&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/national-golf-club.html">Read More</a>
+				</div>
+					</div>
+			<div class="item-Preview mob-flt-item show-item all item3 entertainment thr" data-categoryid="entertainment">						<div class="itm-img" style="background-image:url(../d/regnum/media/__thumbs_400_243_crop/expo2016-2.jpg);"></div>
+												<div class="itm-detail-bar">
+					<span class="itm-cat-title">ENTERTAINMENT </span>
+					<span class="itm-distance">18 km from Hotel </span>
+				</div>				<div class="item-content">				<h3 class="item-title mod-item-title">Expo 2016</h3>
+			<p class="item-intro"> Expo 2016 was held in Antalya.  Turkey's first EXPO, EXPO 2016 Antalya, was held between 23rd of April to 30th of October 2016 with the theme of "Flowers and Children."  </p>
+			<p class="item-intro desktop"> Expo 2016 was held in Antalya.  Turkey's first EXPO, EXPO 2016 Antalya, was held between 23rd of April to 30th of October 2016 with the theme&hellip;</p>
+			<p class="item-intro portrait"> Expo 2016 was held in Antalya.  Turkey's first EXPO, EXPO 2016 Antalya, was&hellip;</p>				<a class="read-more-link item-read-more" href="attractions/expo-2016.html">Read More</a>
+				</div>
+					</div>
+
+		</div>
+	</div>
+	<div class="view-more-wrapper">
+		<span class="view-more"></span>
+	</div>
+<div class="tmp-tractions"></div>
+	</div>
+</div>
+			</div>
+		</div>
+			</div>	
+
+<script type="text/javaScript">
+//<![CDATA[
+function breakColumns(){
+	var attractionsItems=jQuery('.item-Preview'),
+		tmpAttractionsItems=jQuery('.item-Preview').clone();
+		jQuery('.tmp-tractions').append(tmpAttractionsItems);
+		var tmpAttitmLength='';
+		var winWidth=jQuery(window).width();
+		
+		/*if(winWidth<769){
+			console.log(jQuery(window).width());
+			tmpAttitmLength=jQuery('.fliter-list .item-Preview').length/2;
+		}else{
+			tmpAttitmLength=jQuery('.fliter-list .item-Preview').length/3;
+		}
+		for(var i=0;i<attractionsItems.length;i+=tmpAttitmLength){
+			attractionsItems.slice(i,i+tmpAttitmLength).wrapAll("<div class='attractions-itm-wrap'></div>");
+		}*/
+
+		jQuery('.map-categories .category-item').click(function(){
+			if(!jQuery('.map-categories .category-item').hasClass('activeCat')){
+				jQuery('a.all').parent().trigger('click');
+			}
+			jQuery('.attractions-itm-wrap,.fliter-list .item-Preview').remove();
+			
+			jQuery('.map-categories .activeCat').each(function(){
+				var tempAttCat=$(this).children('a').attr('class');
+				jQuery('.item-Preview.'+tempAttCat).clone().appendTo('.fliter-list');			
+			});
+						
+			/*var tmpAttitmLength=jQuery('.fliter-list .item-Preview').length/3;
+			if(jQuery(window).width()<769){
+				tmpAttitmLength=jQuery('.fliter-list .item-Preview').length/2;
+			}
+				attractionsItems=jQuery('.fliter-list .item-Preview')
+			for(var i=0;i<attractionsItems.length;i+=tmpAttitmLength){
+				attractionsItems.slice(i,i+tmpAttitmLength).wrapAll("<div class='attractions-itm-wrap'></div>");
+			}*/		
+			
+		});
+}
+jQuery(document).ready(function(){
+	if($(window).width()<1024){
+		jQuery(".view-filters ").addClass("active-map-title");
+	}else{
+		jQuery(".view-filters ").removeClass("active-map-title");
+		jQuery(".map-categories").removeClass("active-map");
+	}
+	
+	jQuery(window).resize(function(){
+		if($(window).width()<1024){
+			jQuery(".view-filters ").addClass("active-map-title");
+			jQuery(".map-categories ").addClass("active-map");
+		}else{
+			jQuery(".view-filters ").removeClass("active-map-title");
+			jQuery(".map-categories ").removeClass("active-map");
+		}
+	});
+	
+
+	$('.map-categories .category-item').click(function(){
+		
+		  //$('#markers .category-item').click(function(){
+			 
+			var tempcat=$(this).children('a').attr('class');
+			
+			if(tempcat!="all"){
+				$('.category-item.category-1').removeClass('activeCat');
+			}else{
+				$('.category-item').removeClass('activeCat');
+			}
+
+		  if($(this).hasClass("activeCat")){
+			$(this).removeClass('activeCat');
+		  }else{
+		   $(this).addClass('activeCat');
+		  }
+		   $('.map-categories .activeCat').each(function(){
+			
+				activeCats.push($(this).children('a').attr('class'));
+				activeCats.push('hotel');
+			
+			});
+		  showCategoryMarkers(tempcat);
+			//console.log(activeCats);
+			activeCats = [];
+		if ($('.map-categories .activeCat').length < 1){
+			showCategoryMarkers('all');
+		 }				 
+	  
+	});
+	breakColumns();
+	
+});
+jQuery(window).resize(function() {
+			breakColumns();
+	});
+//]]>
+</script>
+
+<div class="footer-wrapper">
+	<div id="footer-menu">
+		<ul class="shortcuts"
+			><li class="shortcut1 item1 itemr10 level1 contactus-and-location"
+				><a href="contact-and-location.html">Contact Us &amp; Location</a
+			></li
+			><li class="shortcut2 item2 itemr9 level1 attractions active active-nojs"
+				><a>Attractions</a
+			></li
+			><li class="shortcut3 item3 itemr8 level1 aboutus"
+				><a href="about-us.html">About Us</a
+			></li
+			><li class="shortcut4 item4 itemr7 level1 environment-and-quality"
+				><a href="green-hotel-belek-antalya.html">Environment &amp; Quality</a
+			></li
+			><li class="shortcut5 item5 itemr6 level1 media"
+				><a href="media.html">Media Kit</a
+			></li
+			><li class="shortcut6 item6 itemr5 level1 career"
+				><a href="career.html">Career</a
+			></li
+			><li class="shortcut7 item7 itemr4 level1 guest-book"
+				><a href="guest-reviews.html">Guest Book</a
+			></li
+			><li class="shortcut8 item8 itemr3 level1 news"
+				><a href="news.html">News</a
+			></li
+			><li class="shortcut9 item9 itemr2 level1 sitemap"
+				><a href="sitemap.html">Sitemap</a
+			></li
+			><li class="shortcut10 item10 itemr1 level1 terms-and-conditions last"
+				><a href="terms-and-conditions.html">Terms &amp; Conditions</a
+			></li
+		></ul>
+		<script type="text/javascript">
+		//<![CDATA[
+			condor.updatePageMenus = condor.updatePageMenus || function() {
+				var pageMenus = getElementsByClass('shortcuts', null, 'ul');
+				for (var j=0; j<pageMenus.length; ++j) {
+					var nojsList = getElementsByClass('active-nojs', pageMenus[j]);
+					for (var i=0; i<nojsList.length; ++i) {
+						removeClass(nojsList[i], 'active-nojs');
+					}
+				}
+			}
+			condor.updatePageMenus();
+		//]]>
+		</script>	</div>
+	<div class="footer-blocks-wrapper">
+		<div class="footer-blocks">
+			<div class="newsletter-block">
+				<h4 class="footer-block-title"> Subscribe to  our Newsletter:</h4>
+					<script type="text/javascript">
+	function popPage(url, windowType) {
+		/*
+			MSDN window.open reference: http://msdn.microsoft.com/en-us/library/ms536651%28VS.85%29.aspx
+			Mozilla window.open reference: https://developer.mozilla.org/En/DOM/Window.open
+		*/
+		window.open(url, windowType, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=600, left=100, top=10');
+	}
+</script> 
+<form action="http://www.regnumhotels.com/en/newsletter.html" method="get">
+	<div class="email-entry">
+		<label for="email-address"></label>
+		<input type="text" id="email-address" name="email" value="Your Email" />
+	</div>
+	<input type="submit" class="go" value="Send"/>
+</form>			</div>
+			<div class="smo-block">
+			<h4 class="footer-block-title">Connect with Us</h4>
+
+			<div class="smo-bar">
+			<ul class="smo-list">									
+								<li class="smo-icon facebook">
+					<a href="https://www.facebook.com/regnumcarya" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon twitter">
+					<a href="https://twitter.com/regnumcarya" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon tripadvisor">
+					<a href="https://www.tripadvisor.com.tr/Hotel_Review-g312725-d5484934-Reviews-Regnum_Carya_Golf_Spa_Resort-Belek_Turkish_Mediterranean_Coast.html" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon googleplus">
+					<a href="https://plus.google.com/110333832047691503368" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon instagram">
+					<a href="https://www.instagram.com/regnumcarya/" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon prenset">
+					<a href="https://www.pinterest.com/regnumcarya/" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon vk">
+					<a href="http://vk.com/regnumcarya" target="_blank">
+					</a>
+					
+				</li>
+								<li class="smo-icon smonew">
+					<a href="http://tophotels.ru/main/hotel/al130132/" target="_blank">
+					</a>
+					
+				</li>
+							</ul>	
+		</div>
+			</div>
+			<div class="weather-block">
+			<div class="weather-wrapper"> 
+			<h4 class="footer-block-title">Current Weather:</h4>
+			<div id="weather1" class="weather">
+	<h2><a href="http://www.accuweather.com/Quick-Look.aspx?p=travelclick&amp;loc=cityId:316965" target="_blank"></a></h2>
+</div>
+			<span class="weather-date0 weather-date">Today</span>
+			<span class="weather-date1 weather-date">Tomorrow</span>	
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer-address-bar">
+		<p class="hotel-addr">® Regnum Carya Golf And Spa Resort, 2016</p>
+		<p class="hotel-contact"><span class="hoelqaute">Kadriye Bölgesi, Üçkum Tepesi Mevkii, Belek-Antalya</span><span class="seperator">|</span><span class="tel-no"><span class="tel-label">Tel.</span><span class="tel-number"><a href="tel:00902427103434">+90 (242) 710 34 34 / +90 - 444 64 23 (Reservations)</a></span> </span><span class="seperator tel-break">|</span><span class="fax-no">Fax: +90 (242) 710 34 00</span><span class="seperator email-break">|</span><span class="email-addr"><a href="mailto:info@regnumhotels.com">info@regnumhotels.com</a> </span></p>
+		
+	<!-- footer copyright -->
+		<div class="copyright label">
+			Designed by: <a href="http://www.travelclick.com/" target="_blank">TravelClick</a>
+		</div>
+	<!-- end copyright -->
+		
+	</div>
+	
+	
+	
+</div>
+
+
+<div class="main-visual">
+
+	<div class="availability-checker-wrapper">
+		<div id="availability-checker">
+		<div class="view-item-logo"></div>
+			
+<form id="booking-form" action="https://bookings.ihotelier.com/bookings.jsp" method="get" target="_blank">
+
+<!--	Test that Google Analytics tracking is working by clicking the submit/book now button on the booking mask site and
+		look in the URL string for code similar to #__utma=1.1142150968.1343168117.1343168117.1343168117.&....etc..
+-->
+		<input type="hidden" name="languageid" value="1" />
+		<input type="hidden" name="hotelid" value="98454" />
+
+						
+			<div class="date">
+				<label for="date-in">CHECK-IN</label>
+									<span class="tmp-date-in">
+					<span class="day"></span>
+					<span class="month"></span>
+					
+				</span>
+				<input type="text" id="date-in" readonly />
+				<label id="date-format-helper" for="date-in"></label>
+				<input type="hidden" id="us-date-in" name="datein" />
+			</div>
+			
+						<div class="date-out date">
+				<label for="date-out">CHECK-OUT</label>
+				<span class="tmp-date-out">
+				
+									<span class="day"></span>
+					<span class="month"></span>
+				</span>
+				<input type="text" id="date-out" class="booking-mask-datepicker" readonly/>
+				<label class="date-format-helper" for="date-out"></label>
+				<input type="hidden" id="us-date-out" name="dateout"  />
+			</div>
+						
+			<div class="adults choose">
+				<label for="adults">adults</label>
+				<select id="adults" name="adults">
+									<option >1</option>
+									<option selected="selected">2</option>
+									<option >3</option>
+									<option >4</option>
+									<option >5</option>
+									<option >6</option>
+									<option >7</option>
+									<option >8</option>
+									<option >9</option>
+									<option >10</option>
+								</select>
+			<span class="bg"></span>
+			</div>
+
+			<div class="children choose">
+				<label for="children">children</label>
+				<select id="children" name="children">
+									<option selected="selected">0</option>
+									<option >1</option>
+									<option >2</option>
+									<option >3</option>
+									<option >4</option>
+									<option >5</option>
+									<option >6</option>
+									<option >7</option>
+									<option >8</option>
+									<option >9</option>
+									<option >10</option>
+								</select>
+				<span class="bg"></span>
+			</div>
+			
+						<button type="submit" class="go booking-link tracking-link" value="" title="">CHECK AVAILABILITY</button>
+		</form>
+		
+<script type="text/javascript">
+/* <![CDATA[ */
+	setTimeout(function(){
+		var calIn = jQuery( "#date-in" ).datepicker({ disabled: false, altField: "#us-date-in", altFormat: 'mm/dd/yy', minDate:0,
+			onClose: function (dateText, inst) {
+			     var tmpDateIn =jQuery('#date-in').val(),
+			     dateInArray = tmpDateIn.split(',');
+			     jQuery(".tmp-date-in .day").text(dateInArray[0]);
+			     jQuery(".tmp-date-in .month").text(dateInArray[1]);
+			     jQuery( "#date-out" ).focus();
+			      var tmpDateOut =jQuery('#date-out').val(),
+			     dateOutArray = tmpDateOut.split(',');
+			     jQuery(".tmp-date-out .day").text(dateOutArray[0]);
+			     jQuery(".tmp-date-out .month").text(dateOutArray[1]);
+
+
+			 }, onSelect: checkCalendarDates, dateFormat: 'dd,M,y'});
+		calIn.datepicker('setDate', new Date());
+		
+		var calOut = jQuery( "#date-out" ).datepicker({ disabled: false, altField: "#us-date-out", altFormat: 'mm/dd/yy',minDate:1,onClose: function (dateText, inst) {
+			     var tmpDateOut =jQuery('#date-out').val(),
+			     dateOutArray = tmpDateOut.split(',');
+			      jQuery(".tmp-date-out .day").text(dateOutArray[0]);
+			     jQuery(".tmp-date-out .month").text(dateOutArray[1]);
+
+			     var tmpDateIn =jQuery('#date-in').val(),
+			     dateInArray = tmpDateIn.split(',');
+			     jQuery(".tmp-date-in .day").text(dateInArray[0]);
+			     jQuery(".tmp-date-in .month").text(dateInArray[1]);
+
+			 }, onSelect: checkCalendarDates, dateFormat: 'dd,M,y'});
+		calOut.datepicker('setDate', new Date());
+		
+		function checkCalendarDates(date, datePickerO)
+		{
+			var dateIn = calIn.datepicker("getDate");
+			var dateOut = calOut.datepicker("getDate");
+			
+			if(dateIn >= dateOut && calIn.attr("id") === datePickerO.id)
+				calOut.datepicker('setDate', new Date( dateIn.getTime() + (24 * 60 * 60 * 1000) ));
+
+			if(dateOut <= dateIn && calOut.attr("id") === datePickerO.id)
+				calIn.datepicker('setDate', new Date( dateOut.getTime() - (24 * 60 * 60 * 1000) ));
+
+			calOut.datepicker("option", "minDate", new Date( dateIn.getTime()+ (24 * 60 * 60 * 1000)));
+		}
+	},5);
+	
+	jQuery(window).load(function(){
+		var monthInID = new Date($("#us-date-in").val()),
+			monthInID = monthInID.getMonth(),
+			monthInName = $.datepicker.regional['en-GB']['monthNames'][monthInID];
+		jQuery(".tmp-date-in .month").text(monthInName);
+		var monthOutID = new Date($("#us-date-out").val()),
+			monthOutID = monthOutID.getMonth(),
+			monthOutName = $.datepicker.regional['en-GB']['monthNames'][monthOutID];
+		jQuery(".tmp-date-out .month").text(monthOutName);
+	});
+/* ]]> */	
+</script>		
+			<!-- <a class="bestRateGuaranteed" href="https://bookings.ihotelier.com/Regnum-Carya-Golf-And-Spa-Resort/bookings.jsp?children=0&amp;dateout=&amp;hotelid=98454&amp;adults=2&amp;datein=&amp;languageid=1#" target="_blank">Advantages of Direct Booking</a> -->
+			<a class="bestRateGuaranteed">Advantages of Direct Booking</a>
+			<a class="modifyBooking" href="https://bookings.ihotelier.com/Regnum-Carya-Golf-And-Spa-Resort/bookings.jsp?&amp;hotelid=98454&amp;confirmid=ConfirmationNumber&amp;languageid=1" target="_blank">Modify Booking</a>
+		</div>
+	</div>
+
+	<span class="discover-btn">DISCOVER</span>
+</div>
+
+<div class="non-desktop menu-drop-down">
+	<div class="main-menu"></div>
+	<div class="lang-drop-down"></div>
+</div>
+
+<script type="text/javascript" src="../d/regnum/merged/global_f9_2017-04-07-12-10_1844485985.js"></script>
+
+
+
+
+
+
+
+
+
+<div class="share-buttons">
+	
+</div>
+
+<!-- begin SnapEngage code -->
+<script type="text/javascript">
+ 
+if(_regnum.language=='tr'){
+	(function() {
+		var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+		se.src = '../../storage.googleapis.com/code.snapengage.com/js/6601bc8e-7654-4f98-a95d-ddd4749fac40.js';
+		var done = false;
+		se.onload = se.onreadystatechange = function() {
+		  if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+			done = true;
+		  }
+		};
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+	})();
+}else if(_regnum.language=='ru'){
+	(function() {
+		var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+		se.src = '../../storage.googleapis.com/code.snapengage.com/js/008a7458-4f30-4086-93c0-7c3db548805e.js';
+		var done = false;
+		se.onload = se.onreadystatechange = function() {
+		  if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+			done = true;
+		  }
+		};
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+	  })();
+}else if(_regnum.language=='de'){
+	 (function() {
+		var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+		se.src = '../../storage.googleapis.com/code.snapengage.com/js/75075613-c414-4ba7-bc38-35eced265f12.js';
+		var done = false;
+		se.onload = se.onreadystatechange = function() {
+		  if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+			done = true;
+		  }
+		};
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+	  })();
+}else{
+ (function() {
+    var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+    se.src = '../../storage.googleapis.com/code.snapengage.com/js/6288e4ff-c62b-49cb-9de2-c71b5a0a73f6.js';
+    var done = false;
+    se.onload = se.onreadystatechange = function() {
+      if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+        done = true;
+      }
+    };
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+  })();
+} 
+
+  
+</script>
+<!-- end SnapEngage code -->
+<div class="best-rate-content-wrapper">
+	<div class="best-rate-close"></div>
+	<div class="best-rate-content">
+		<h2 class="best-rate-heading">Advantages of Direct Booking</h2>
+		<div class="best-rate-intro">
+			<p>Discover our variety and profit by our advantages for direct bookers:</p>
+<p>Special room types for only direct bookers (Junior Room &amp; Senior Room)</p>
+<ul>
+<li>Free two-way VIP Airport transfer</li>
+<li>Free cancellation 7 days before arrival*</li>
+<li>No hidden costs</li>
+<li>Attractive package offers and deals can only be booked directly</li>
+<li>Personal advice and a flexible attitude towards special requirements</li>
+<li>Booking with preferred room</li>
+<li>Availability always up to date</li>
+<li>Alternative payment methods (Credit card, bank transfer, mail order, etc.)</li>
+<li>No pre-payment or credit card required, you can pay at the reception during check-in*</li>
+</ul>
+<p>* Excluding non-refundable reservations.</p>
+		</div>
+	</div>
+</div>
+</body>
+
+<!-- Mirrored from www.regnumhotels.com/en/attractions-in-antalya.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Aug 2017 04:10:09 GMT -->
+</html>
+<!--331 Queries - 1.6861898899078 seconds -->
