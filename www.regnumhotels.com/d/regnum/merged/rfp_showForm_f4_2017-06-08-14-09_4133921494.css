@@ -1,0 +1,106 @@
+
+/***************  modules/flexibleForms/themes/clean/style.inputBlock.css  ***************/
+form.flexibleForm .fieldBlock {
+	margin-bottom: 0.4em;
+	zoom: 1;
+}
+
+form.flexibleForm .fieldBlock:after {
+	content: '.';
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+	
+form.flexibleForm label.fieldLabel	{
+	display: block;
+	float: left;
+	width: 9em;
+	margin-right: 0.8em;
+	text-align: right;
+}
+	
+form.flexibleForm .fieldInput {/* Any input type will have this class */
+	float: left;
+	width: 12em;
+}
+	
+form.flexibleForm .fieldBlock.invalid .fieldInput {
+	border-color: #ff2020;
+}
+
+form.flexibleForm .fieldBlock.invalid .fieldLabel {
+	color: #ff2020;
+}
+
+form.flexibleForm textarea.fieldInput {
+	width: 20em;
+	height: 6em;
+	border: 1px solid #7F9DB9;
+	font-size: 1em;
+	font-family: inherit;
+	overflow: auto;
+}
+
+form.flexibleForm input.fieldInput {
+	height: 1.3em;
+	border: 1px solid #7F9DB9;
+	font-size: 1em;
+	font-family: inherit; 
+}
+
+form.flexibleForm input.fieldInput[type=file] {
+	height: auto;
+}
+
+form.flexibleForm select.fieldInput {
+	width: 12.2em;
+	height: 1.5em;
+	border: 1px solid #7F9DB9;
+	font-size: 1em;
+	font-family: inherit; 
+}
+
+form.flexibleForm button.submit {
+	font-family: inherit;
+	font-size: 1em;
+	margin-left: 9.8em;
+}
+
+form.flexibleForm .type_date input.fieldInput {
+	width: 6em;
+}
+
+form.flexibleForm .type_date img.calendar-icon {
+	cursor: pointer;
+}
+
+form.flexibleForm .fieldBlock.invalid .flexInputInvalid {
+	border-color: #ff2020;
+}
+
+form.flexibleForm .fieldBlock.invalid .flexFormBlockLabel {
+	color: #ff2020;
+}
+/***************  modules/flexibleForms/themes/clean/template.flexInput.date.css  ***************/
+
+form.flexibleForm .type_date .calendar-icon {
+	margin: 1px 0 0 2px;
+}
+/***************  modules/flexibleForms/themes/default/style.submitBlock.css  ***************/
+.flexFormSubmitBlock { 
+	 	text-align:right;
+	}
+	
+/***************  modules/flexibleForms/themes/clean/style.form.css  ***************/
+form.flexibleForm {
+	margin-bottom: 0.8em;
+}
+
+form.flexibleForm input.hp_email
+{
+	visibility: hidden;
+	position: absolute;
+	top: -9999px;
+}

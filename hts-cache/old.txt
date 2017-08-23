@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+13:16:17	246/246	---M--	301	error ('Moved%20Permanently')	text/html	date:Tue,%2022%20Aug%202017%2020:08:39%20GMT	http://regnumhotels.com/robots.txt		(from )
+13:16:17	236/236	---M--	301	error ('Moved%20Permanently')	text/html	date:Tue,%2022%20Aug%202017%2019:56:41%20GMT	http://regnumhotels.com/	C:/Users/AAA/Documents/HTTrack/anh-octopus/regnumhotels.com/index.html	(from )

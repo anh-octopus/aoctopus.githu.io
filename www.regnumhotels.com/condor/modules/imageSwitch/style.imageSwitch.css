@@ -1,0 +1,279 @@
+#imageCropBlockLeft, #imageCropBlockRight, #imageCropBlockTop, #imageCropBlockBottom {
+	/*background-color:#555;*/
+}
+
+.imageSwitchBlockImageStatic {
+	opacity:.6;
+	filter:alpha(opacity=60);
+	-moz-opacity:.6;
+	
+}
+
+/* The reason for this class is to make dragging the image smoother on firefox */
+.imageSwitchBlockImageMoving {
+   	opacity:.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:.8;
+}
+	
+#imageCropBlockLeft {
+	top:0px;
+	left:0px;
+	position:absolute;
+	}
+	
+	
+#imageCropBlockRight {
+	top:0px;
+	right:0px;
+	position:absolute;
+	}
+	
+	
+#imageCropBlockTop {
+	top:0px;
+	left:0px;
+	position:absolute;
+	}
+	
+	
+#imageCropBlockBottom {
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	}
+	
+#imageCropBox {
+	border:1px dashed #aaa;
+	top:0px;
+	left:0px;
+	position:absolute;
+}
+
+#imageCropImageMouseHandler {
+	position:absolute;
+	cursor:move;
+	background-color:#fff;
+}
+
+.hideImageCropImageMouseHandler {
+	opacity:0;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+}
+
+.showImageCropImageMouseHandler {
+	opacity:.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:.8;
+}
+
+#imageSwitchEditImage{
+	position:absolute;
+}
+
+
+/* The slider */
+
+#imageSwitchSlider {
+	width:140px;
+	height:32px;
+	position:absolute;
+	top:-6px;
+	left:10px;
+}
+
+#imageCropControlBox {
+	position:absolute;
+	top:20px;
+	left:730px;
+	background-color:#fff;
+	border:1px solid #3E5F8F;
+	height:250px;
+	width:168px;
+}
+
+#imageSwitchSliderBox {
+	position:absolute;
+	top:28px;
+	left:7px;
+}	
+
+#imageSwitchContolBoxHeader{
+	width:164px;
+	background-color:#3E5F8F;
+	color:#fff;
+	text-align:center;
+	font-size:12px;
+	padding:2px;
+	cursor:move;
+}
+
+
+/* Direction Buttons */
+
+#imageSwitchMoveControls {
+	position:absolute;
+	top:68px;
+	left:3px;
+}
+
+
+#imageSwitchMoveUp {
+	position:absolute;
+	top:18px;
+	left:30px;
+}
+
+#imageSwitchMoveDown {
+	position:absolute;
+	top:58px;
+	left:30px;
+}
+
+#imageSwitchMoveLeft {
+	position:absolute;
+	top:38px;
+	left:10px;
+}
+
+#imageSwitchMoveRight {
+	position:absolute;
+	top:38px;
+	left:50px;
+}
+
+
+/* Approve Button */
+
+#imageSwitchApprove {
+	position:absolute;
+	top:82px;
+	left:100px;
+	cursor:pointer;
+}
+
+/* Next Button (opens Alt Text pop-up)*/
+
+#imageSwitchAltTextApprove {
+	position:absolute;
+	top:82px;
+	left:100px;
+	cursor:pointer;
+}
+
+/* Review Alt Text link */
+
+#imageReviewAltText{
+	position:absolute;
+	top:190px;
+	left:10px;
+	cursor:pointer;
+}
+
+/* Choose other text */
+
+#imageSwitchChooseOther {
+	position:absolute;
+	top:210px;
+	left:10px;
+	cursor:pointer;
+}
+
+#imageSwitchChooseOther p {
+	font-size:9px;
+	width:150px;
+}
+
+
+/* in page images */
+.imageSwitchHolder,
+.imageSwitchHolderAltTextOnly {
+	overflow: hidden;
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+}
+
+.editMode .imageSwitchHolder {
+	cursor: pointer;
+	border: 1px dashed #FF9900;
+}
+
+.editMode .imageSwitchHolder:hover {
+	cursor: pointer;
+	border: 1px dashed #07b5b7;
+}
+
+
+.editMode .imageSwitchHolder img {
+	margin-top: -1px;
+	margin-left: -1px;
+}
+
+/* Images pending approval */
+.editMode .imageSwitchHolder.version_2 {
+	border: 0 none;
+	outline: 2px double #F90;
+}
+
+.imageSwitchHolder p {
+	display: none;
+	position: relative;
+	text-align: center;
+	top: 40%;
+}
+
+.imageSwitchHolder .editableAltTextIcon,
+.imageSwitchHolderAltTextOnly .editableAltTextIcon,
+.imageSwitchHolder  .editableAltTextIconEmpty ,
+.imageSwitchHolderAltTextOnly .editableAltTextIconEmpty {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.imageSwitchHolder .editableAltTextIcon,
+.imageSwitchHolderAltTextOnly .editableAltTextIcon {
+	background: url('themes/default/images/editAltText.png');
+	border:1px solid #dcdcd6;
+}
+
+.imageSwitchHolder  .editableAltTextIconEmpty ,
+.imageSwitchHolderAltTextOnly .editableAltTextIconEmpty {
+	background: url('themes/default/images/editAltTextEmpty.png');
+	border: 1px solid #fababa;
+}
+
+/* OK button in Alt Text Pop-up */
+
+#textOkOnly {
+	position:absolute;
+	bottom:10px;
+	right:20px;
+	text-decoration:none;
+}
+
+
+#zoomInOut {
+	position:absolute;
+	top:150px;
+	left:10px;	
+}
+
+#imageSwitchZoomOut {
+	position:absolute;
+	top:20px;
+	left:42px;
+}
+
+#imageSwitchZoomIn {
+	position:absolute;
+	top:20px;
+	left:3px;
+}

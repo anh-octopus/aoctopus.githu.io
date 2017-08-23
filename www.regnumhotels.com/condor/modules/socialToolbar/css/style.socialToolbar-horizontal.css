@@ -1,0 +1,263 @@
+#socialToolbarContainer {
+	bottom: 0;
+	height:45px;
+	font-family: Helvetica,Arial;
+	z-index:1001;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+/*Sprites - added in new sprite sets for additional properties 2/14/14 */
+.socialToolbarButtonRight a span b{
+	width:24px;
+	height:24px;
+	display:block;
+	background: url('../themes/default/images/icon_sprite_new.png') top left no-repeat;
+	vertical-align:text-bottom;
+	border:0;
+	margin:2px 5px 0 0;
+	float:left;
+	user-select: none;
+}
+/*///// SMALL 24PX PNG ICONS */  
+.socialToolbarButtonRight a span b.twitter{
+	background-position: 0 -154px;
+}
+.socialToolbarButtonRight a span b.facebook{
+	background-position: -50px -154px;
+}
+.socialToolbarButtonRight a span b.pinterest{
+	background-position: -101px -154px;
+}
+.socialToolbarButtonRight a span b.youtube{
+	background-position: -152px -153px;
+}
+.socialToolbarButtonRight a span b.tripadvisor{
+	background-position: -204px -154px;
+}
+.socialToolbarButtonRight a span b.googleplus{
+	background-position: -255px -154px;
+}
+.socialToolbarButtonRight a span b.tumblr{
+	background-position: -306px -153px;
+}
+.socialToolbarButtonRight a span b.instagram{
+	background-position: -357px -154px;
+}
+/*Flat Icons*/
+.socialToolbarButtonRight.flat a span b.twitter{
+	background-position: 0 -181px;
+}
+.socialToolbarButtonRight.flat a span b.facebook{
+	background-position: -51px -181px;
+}
+.socialToolbarButtonRight.flat a span b.pinterest{
+	background-position: -102px -181px;
+}
+.socialToolbarButtonRight.flat a span b.youtube{
+	background-position: -152px -181px;
+}
+.socialToolbarButtonRight.flat a span b.tripadvisor{
+	background-position: -204px -181px;
+}
+.socialToolbarButtonRight.flat a span b.googleplus{
+	background-position: -255px -181px;
+}
+.socialToolbarButtonRight.flat a span b.tumblr{
+	background-position: -306px -181px;
+}
+.socialToolbarButtonRight.flat a span b.instagram{
+	background-position: -356px -181px;
+}
+/*Circle Icons*/
+.socialToolbarButtonRight.circle a span b.twitter{
+	background-position: 0 -207px;
+}
+.socialToolbarButtonRight.circle a span b.facebook{
+	background-position: -51px -207px;
+}
+.socialToolbarButtonRight.circle a span b.pinterest{
+background-position: -102px -207px;
+}
+.socialToolbarButtonRight.circle a span b.youtube{
+	background-position: -153px -207px;
+}
+.socialToolbarButtonRight.circle a span b.tripadvisor{
+	background-position: -204px -207px;
+}
+.socialToolbarButtonRight.circle a span b.googleplus{
+	background-position: -255px -207px;
+}
+.socialToolbarButtonRight.circle a span b.tumblr{
+	background-position: -306px -207px;
+}
+.socialToolbarButtonRight.circle a span b.instagram{
+	background-position: -357px -207px;
+}
+#socialToolbarHolder {
+	position: absolute;
+	font-family: Helvetica,Arial;
+	z-index:1001;
+	height:40px;
+	width:100%;
+	bottom:0;
+}
+#socialToolbarContainer.stRounded,
+#socialToolbarContainer.stRounded #socialToolbarInnerMin,
+#socialToolbarContainer.stRounded #socialToolbarBackground{
+	border-radius: 3px 3px 0 0;
+}
+
+#socialToolbarContainer .inner_toolbar {
+	position: relative;
+	font-size:16px;
+	float:left;
+	width:100%;
+}
+
+#socialToolbarContainer .inner_toolbar .contentLeft {
+	margin: 12px 0 0 0px;
+	margin-right:10px;
+	float:left;
+	height:37px;
+}
+
+#socialToolbarContainer .inner_toolbar .contentRight {
+	margin: 9px 0 0 0;
+	margin-right:25px;
+	float:right;
+}
+
+#socialToolbarContainer .minimized  {
+	font-size:14px;
+	width:125px;
+	min-width:125px;
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+#socialToolbarContainer .inner_toolbar .shareLeft{
+	position: relative;
+	margin: 12px 0 0 12px;
+	float:left;
+}
+#socialToolbarContainer .inner_toolbar .shareLeft span.shareContainer{
+	 font-size: 11px;
+}
+.contentRight {
+	float:right;
+}
+.contentLeft {
+	margin-bottom: 10px;
+}
+/*
+#socialToolbarContainer .inner_toolbar .shareLeft:hover > .contentLeft,
+#socialToolbarContainer .inner_toolbar .shareLeft .contentLeft:hover{ 
+	display: block;
+}
+*/
+#socialToolbarContainer .inner_toolbar .shareLeft .contentLeft{
+	margin: 0;  
+	position:absolute;
+	top:-54px;
+	width:960px;
+	left:-12px;
+	display:none; 
+}
+#socialToolbarContainer .inner_toolbar .shareLeft .contentLeft:after {
+	position: absolute;
+	bottom: -10px;
+	left: 15px;
+	border-width: 12px 12px 0;
+	border-style: solid;
+	display: block;
+	width: 0;
+}
+#socialToolbarContainer .inner_toolbar .shareLeft .contentLeft ul{
+	padding: 7px 6px 2px;
+}
+#socialToolbarContainer.stRounded .inner_toolbar .shareLeft .contentLeft ul{
+	border-radius:3px;
+}
+#socialToolbarContainer .inner_toolbar ul{
+	float:left;
+	display:inline;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+#socialToolbarContainer .inner_toolbar ul li{
+	 float:left;
+	 margin-right: 5px;
+	 margin-left: 5px;
+}
+
+.only-icons,.only-icons:hover{
+	padding:0 3px;
+}
+
+
+#socialToolbarContainer #socialToolbarInnerMin{
+	bottom: -100px;
+	padding: 8px 5px;
+}
+#social_toolbar_minimize span.icon{
+	display: block;
+	position:absolute;
+	top:20px;
+	right:14px;
+	width:10px;
+	height:6px;
+	background: url('../themes/default/images/arrows.png') top left no-repeat;
+	background-position: 0 0;
+}
+
+#social_toolbar_maximize span.icon{
+	display: block;
+   	position:absolute;
+	top:14px;
+	right:14px;
+	width:10px;
+	height:6px;
+	background: url('../themes/default/images/arrows.png') top left no-repeat;
+	background-position: 0 -6px; 
+}
+
+#social_toolbar_maximize .stdButton{
+	font-size: 14px;	
+	line-height:normal
+}
+#SocialToolbarActiveWindow{
+	margin-bottom: 8px;
+	right:0;
+	width:auto;
+	height: 320px;
+}
+.labelLeftContent{
+	float: left;
+	font-size: 11px;
+	line-height: 19px;
+	margin-right: 5px;
+}
+.labelRightContent{
+	float: left;
+	font-size: 11px;
+	line-height: 25px;
+	margin-right: 5px;
+}
+#socialToolbarContainer.stExtended {
+	width:100%;
+	margin-left: 0;
+	bottom:0;
+	left:0;
+}
+
+#socialToolbarContainer .mailButton {
+	width: 32px;
+}
+
+#socialToolbarContainer .inner_toolbar .contentLeft ul li {
+	line-height:0px;
+}

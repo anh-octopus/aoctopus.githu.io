@@ -1,0 +1,400 @@
+/** GLOBAL start **/
+#hcWidget13412320140112 {
+    border-width: 2px;
+    border-style: solid;
+    padding:10px;
+    text-align: center;
+    font-size: 12px !important;
+    font-family: arial,helvetica,sans-serif !important;
+    border-color: #ffffff !important;
+    background-color: #ffffff !important;
+}
+#hcWidget13412320140112 a,
+#hcWidget13412320140112 span,
+#hcWidget13412320140112 div,
+#hcWidget13412320140112 strong,
+#hcWidget13412320140112 h1,
+#hcWidget13412320140112 h2 {
+    color: #10000f !important;
+}
+#hcWidget13412320140112 h1 a {
+    text-decoration: none;
+}
+#hcWidget13412320140112 #hcWidgetPulsline {
+    background: url("image/element_box/boxhome_headline_bg.gif") no-repeat scroll 0 0 transparent !important;
+    color: #FFFFFF !important;
+    font-size: 12px;
+    margin: -10px -10px 10px !important;
+    padding: 4px 8px 16px !important;
+    text-align: left;
+    font-weight: bold;
+}
+#hcWidget13412320140112 #poweredBy {
+    text-align: left;
+    font-size: 9px;
+    color: #9C9C9C !important;
+}
+#hcWidget13412320140112 img.scaled {
+    width: 70px !important;
+}
+#hcWidget13412320140112 .clearFix,
+#hcWidget13412320140112 .hcWidgetClearFix {
+    clear:both;
+}
+#hcWidget13412320140112 .hcWidgetFloatLeft,
+#hcWidget13412320140112 .floatLeft {
+    float:left;
+}
+#hcWidget13412320140112 .floatRight,
+#hcWidget13412320140112 .hcWidgetFloatRight {
+    float:right;
+}
+#hcWidget13412320140112 #hcWidgetLogo {
+    width: 0;
+}
+#hcWidget13412320140112 .hcWidgetLogoLeft {
+    float:left;
+}
+#hcWidget13412320140112 .hcWidgetLogoRight {
+    float: right;
+}
+#hcWidget13412320140112 .hcWidgetLogoRight img {
+    position: absolute;
+    margin-left: -118px;
+    border: none;
+}
+#hcWidget13412320140112 .hcWidgetLogoLeft img {
+    position: absolute;
+    margin-left: -12px;
+    border: none;
+}
+#hcWidget13412320140112 #hcWidgetImage, #hcWidget13412320140112 #hcWidgetContent {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: left;
+    width: 140px;
+}
+#hcWidget13412320140112 #hcWidgetImage img {
+    border: none;
+}
+#hcWidget13412320140112 #hcWidgetHeadline {
+    color: #325FAA;
+    font-size: 16px;
+    line-height: 19px
+}
+#hcWidget13412320140112 #hcWidgetLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#hcWidget13412320140112 #hcWidgetButtonHelper {
+    height: 24px;
+}
+#hcWidget13412320140112 #hcWidgetButton {
+    cursor: default;
+    margin: 0 0 15px;
+}
+#hcWidget13412320140112 #hcWidgetButton a {
+    padding-right: 8px;
+    display: block;
+    color: #143764;
+    cursor: pointer;
+    background-position: right -237px;
+    background-repeat: no-repeat;
+    display:block;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: url("image/element_sprite/sprite_global_de.png");
+}
+#hcWidget13412320140112 #hcWidgetButton span {
+    text-align: center;
+    margin: 0;
+    padding: 4px 0 2px 7px;
+    background-image: url("image/element_sprite/sprite_global_de.png");
+    background-position: 0 -125px;
+    display: block;
+    height: 19px;
+}
+#hcWidget13412320140112 .hcWidgetFactbox {
+    margin-top: 5px;
+    float:left;
+    margin-bottom: 10px;
+}
+#hcWidget13412320140112 .hcWidgetFactbox span {
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#hcWidget13412320140112 .hcWidgetFactboxContent {
+    background-image: url(image/widget/factbox_right.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 25px;
+    margin-top: 1px;
+    float:left;
+}
+#hcWidget13412320140112 .hcWidgetFactboxlogo {
+    width: 25px;
+    height: 25px;
+    float:left;
+    margin-top: 1px;
+}
+#hcWidget13412320140112 #hcWidgetRating .hcWidgetFactboxlogo {
+    background-image: url(image/widget/factbox_rate_left.png);
+}
+#hcWidget13412320140112 #hcWidgetRecommendation .hcWidgetFactboxlogo {
+    background-image: url(image/widget/factbox_sun_left.png);
+}
+#hcWidget13412320140112 .ratingBarPrint {
+    display: none;
+}
+#hcWidget13412320140112 .ratingBarActiveSuns, #hcWidget13412320140112 .ratingBarInactiveSuns {
+    height: 20px;
+    background-color: transparent;
+    background-image: url("image/element_sprite/sprite_global_de.png");
+}
+#hcWidget13412320140112 .ratingBarActiveSuns {
+    background-position: -675px 122px;
+}
+#hcWidget13412320140112 .ratingBarInactiveSuns {
+    background-position: -564px 122px;
+    width: 101px;
+    margin-right: 22px;
+    margin-bottom: 5px;
+}
+#hcWidget13412320140112 .ratingBarSuns {
+    width: 126px;
+}
+#hcWidget13412320140112 .ratingBarSuns span {
+    float: right;
+    margin-left: 3px;
+    font-weight: bold;
+}
+#hcWidget13412320140112 .separatorLight,
+#hcWidget13412320140112 .hcWidgetseparatorLight {
+    margin: 12px 0 17px;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: #D3D9E2 #D3D9E2 #ECECEC;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    height: 0;
+    padding-top: 1px;
+}
+#hcWidget13412320140112 .destinationWidget {
+    text-align: left;
+}
+#hcWidget13412320140112 .destinationWidget .hcWidgetRecommandation {
+    margin-top: 5px;
+}
+#hcWidget13412320140112 .destinationWidget .hcWidgetTitle,
+#hcWidget13412320140112 .destinationWidget .hcWidgetRecommandation {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#hcWidget13412320140112 .listingPicture {
+    margin-bottom: 5px;
+}
+#hcWidget13412320140112 .destTemplateM .destinationWidget {
+    text-align: left;
+    width: 238px;
+    float: left;
+}
+#hcWidget13412320140112 .destTemplateM .hcWidgetElem0 {
+    width: 100%;
+    clear: both;
+}
+#hcWidget13412320140112 .destTemplateM .hcWidgetElem1 {
+    display: none;
+}
+#hcWidget13412320140112 .destTemplateM .listingPicture {
+    float:left;
+    margin-right: 10px;
+}
+
+#hcWidget13412320140112 .destTemplateM,
+#hcWidget13412320140112 .destTemplateS {
+    padding-bottom: 45px;
+}
+/** GLOBAL end **/
+
+/** Templates **/
+#hcWidget13412320140112 .templateXS,
+#hcWidget13412320140112 .templateS,
+#hcWidget13412320140112 .templateM,
+#hcWidget13412320140112 .templateL,
+#hcWidget13412320140112 .templateXL {
+    margin: 0 auto;
+    text-align:left;
+}
+
+#hcWidget13412320140112 .templateXS #hcWidgetRating {
+    margin-bottom: 0;
+}
+
+#hcWidget13412320140112 .templateS #hcWidgetRating,
+#hcWidget13412320140112 .templateM #hcWidgetRating,
+#hcWidget13412320140112 .templateL #hcWidgetRating,
+#hcWidget13412320140112 .templateXL #hcWidgetRating {
+    margin-right: 10;
+}
+#hcWidget13412320140112 .templateM .first,
+#hcWidget13412320140112 .templateL .first,
+#hcWidget13412320140112 .templateXL .first {
+    margin-right: 9px;
+    float:left;
+}
+/** Templates **/
+
+/** Template XS Start **/
+#hcWidget13412320140112 .templateXS {
+    width: 140px;
+}
+#hcWidget13412320140112 .templateXS .hcWidgetFactboxContent {
+    width: 115px;
+}
+/** Template S Start **/
+#hcWidget13412320140112 .templateS {
+    width: 230px;
+}
+#hcWidget13412320140112 .templateS .hcWidgetFactboxContent {
+    width: 85px;
+}
+#hcWidget13412320140112 .templateS #hcWidgetLinks,
+#hcWidget13412320140112 .templateS #hcWidgetImage,
+#hcWidget13412320140112 .templateS #hcWidgetHeadline {
+    text-align: center;
+}
+#hcWidget13412320140112 .templateS .first {
+    margin-right: 5px;
+    float:left;
+}
+/** Template S Ende **/
+
+/** Template M Start **/
+#hcWidget13412320140112 .templateM {
+    width: 290px;
+}
+#hcWidget13412320140112 .templateM .hcWidgetFactboxContent {
+    width: 115px;
+}
+#hcWidget13412320140112 .templateM #hcWidgetLinks,
+#hcWidget13412320140112 .templateM #hcWidgetImage,
+#hcWidget13412320140112 .templateM #hcWidgetHeadline {
+    text-align: left;
+    float:left;
+}
+#hcWidget13412320140112 .templateM #hcWidgetLinks {
+    margin-bottom: 10px;
+}
+/** Template M Ende **/
+
+/** Template L / XL Start **/
+#hcWidget13412320140112 .templateL,
+#hcWidget13412320140112 .templateXL {
+    width: 445px;
+}
+#hcWidget13412320140112 .templateL h1,
+#hcWidget13412320140112 .templateXL h1 {
+    height: 40px;
+}
+#hcWidget13412320140112 .templateL .leftLeft,
+#hcWidget13412320140112 .templateXL .leftLeft {
+    margin-top: 54px;
+    float:left;
+}
+#hcWidget13412320140112 .templateL .hcWidgetRight,
+#hcWidget13412320140112 .templateXL .hcWidgetRight {
+    width: 290px;
+    float:left;
+}
+#hcWidget13412320140112 .templateL .hcWidgetFactboxContent,
+#hcWidget13412320140112 .templateXL .hcWidgetFactboxContent {
+    width: 115px;
+}
+/** Template L / XL Ende **/
+
+/** Template XL Start **/
+#hcWidget13412320140112 .contentXL {
+    width: 100%;
+}
+#hcWidget13412320140112 .contentXL .ratingBarInactiveSuns {
+    float:right;
+    margin-right: 0;
+}
+#hcWidget13412320140112 .contentXL .reviewTextSnippet {
+    clear : both;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#hcWidget13412320140112 .contentXL .ratingBarSuns span {
+    font-size: 16px;
+    font-weight: bold;
+}
+#hcWidget13412320140112 .contentXL .reviewListTitle,
+#hcWidget13412320140112 .contentXL .reviewListAdditionalData {
+    float:left;
+}
+#hcWidget13412320140112 .contentXL .reviewListAdditionalData .reviewListDate,
+#hcWidget13412320140112 .contentXL .reviewListAdditionalData .reviewListUserData {
+	display: inline;
+}
+#hcWidget13412320140112 .contentXL .reviewListAdditionalData .userdata {
+    margin-left: 5px;
+}
+#hcWidget13412320140112 .contentXL .reviewListRead {
+    float:right;
+}
+/** Template L / XL Ende **/
+
+/** Template XL Start **/
+#hcWidget13412320140112 .contentXL #hcWidgetLinks {
+    padding-right: 10px;
+}
+#hcWidget13412320140112 .contentXL .reviewListRating {
+    float: right;
+}
+#hcWidget13412320140112 .contentXL .listitemBox .box {
+    margin-bottom: 10px;
+}
+
+#hcWidget13412320140112 .contentXL .thumbSpaceBig,
+#hcWidget13412320140112 .contentXL .thumbSpaceSmall,
+#hcWidget13412320140112 .contentXL .thumbUpSmall,
+#hcWidget13412320140112 .contentXL .thumbDownSmall,
+#hcWidget13412320140112 .contentXL .peopleSingle,
+#hcWidget13412320140112 .contentXL .peopleCouple,
+#hcWidget13412320140112 .contentXL .peoplefamily {
+    background-color: transparent;
+    background-image: url("image/element_sprite/sprite_rates.gif");
+}
+
+#hcWidget13412320140112 .contentXL .peopleSingle {
+    background-position: -129px -89px;
+    height: 28px;
+    width: 25px;
+}
+#hcWidget13412320140112 .contentXL .peopleCouple {
+    background-position: -58px -89px;
+    height: 28px;
+    width: 33px;
+}
+#hcWidget13412320140112 .contentXL .peoplefamily {
+    background-position: -93px -89px;
+    height: 28px;
+    width: 35px;
+}
+#hcWidget13412320140112 .contentXL .userReviewTitle, #hcWidget13412320140112 .contentXL .ratingBarSuns {
+    float:left;
+}
+#hcWidget13412320140112 .contentXL .userInfoBox {
+    width: 140px;
+    float:left;
+}
+/** Template XL Ende **/

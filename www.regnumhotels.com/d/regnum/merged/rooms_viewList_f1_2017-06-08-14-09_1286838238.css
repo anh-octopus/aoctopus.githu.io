@@ -1,0 +1,18 @@
+
+/***************  modules/pukkaRooms/themes/default/style.viewList.css  ***************/
+#mod_pukkaRooms img {
+	display: block;
+}
+
+#mod_pukkaRooms .itemPreview {
+	zoom: 1;
+	position: relative;
+}
+
+#mod_pukkaRooms .itemPreview:after {
+	content: '.';
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+}

@@ -1,0 +1,35 @@
+
+/***************  modules/pukkaPackages/themes/default/style.viewList.css  ***************/
+#mod_pukkaPackages .itemPreview
+{
+	zoom: 1;
+	position: relative;
+}
+
+#mod_pukkaPackages .itemPreview:after
+{
+	content: '.';
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+#mod_pukkaPackages .itemPreviewPrice
+{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#mod_pukkaPackages .itemPreviewPrice .amount
+{
+	font-family: Georgia, Times, serif;
+	font-size: 2.5em;
+	font-style: italic;
+}
+#mod_pukkaPackages .itemPreviewPrice .currency
+{
+	font-family: Georgia, Times, serif;
+	font-size: 1.5em;
+	font-style: normal;
+}

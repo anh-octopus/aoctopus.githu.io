@@ -1,0 +1,18 @@
+
+/***************  templates/moduleThemes/default/sitemap/style.sitemap.css  ***************/
+.no-mainvisual .main-info{
+	margin-bottom: auto!important;
+    min-height: 0!important;
+    width: auto!important;
+}
+
+ul.sitemap{
+
+}
+ul.sitemap li.data-section > span{
+	font-weight: 700;
+}
+ul.sitemap li.data-section > ul{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}

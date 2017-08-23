@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.regnumhotels.com	TRUE	/	FALSE	1999999999	BIGipServerpool_htb_cluster5	4011400714.20480.0000
+.google.com	TRUE	/	FALSE	1999999999	NID	110=hkhzPRsMx1nVkkDgiehUwTRPCXenmqBy9X2i3qNIoTzEk_rdKxWsU2t-kqrslFdpdmv98pNcMRXfkskuzCkEap5RMXVHAPaRR6yucmnrTFxeLl734izUITBzGzJnfijO
+.tripadvisor.co.uk	TRUE	/	FALSE	1999999999	TASession	V2ID.280BE568AFE88D72C5689A5DFFFEDA0A*SQ.1*GR.35*ABTR.39*HS.popularity*ES.popularity*AS.popularity*DS.5*SAS.popularity*FPS.oldFirst*FA.1*TRA.true
+.tripadvisor.co.uk	TRUE	/	FALSE	1999999999	ServerPool	X
+.tripadvisor.co.uk	TRUE	/	FALSE	1999999999	TACds	A.1.11900.2.2017-08-22
+.tripadvisor.co.uk	TRUE	/	FALSE	1999999999	TAUnique	%1%enc%3AtVbbk%2FN3Yeqwif6u%2BH47KINwT3kPjAKFCT6ok3UaPule2rdOws4MhQ%3D%3D
+.holidaycheck.de	TRUE	/	FALSE	1999999999	hcweb_branch	default@@@f00e94a51c8ba66b86a67ff8b41af688
+.holidaycheck.de	TRUE	/	FALSE	1999999999	mobile_detected	false
+

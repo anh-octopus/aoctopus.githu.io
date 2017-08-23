@@ -1,0 +1,82 @@
+div#cookie-notice {
+	background:rgba(0,62,85,0.85);
+	color: #fff;
+	font-family: "Roboto-Regular",Helvetica,sans-serif;
+	font-size: 0.9em;
+	left: 0;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 225;
+}
+	div#cookie-notice a {
+		color: #b9945b;
+		padding-right: 10px;
+		text-decoration: underline;
+	}
+	div#cookie-notice a:hover{
+		opacity:0.5;
+		
+		text-decoration: underline;
+	}
+	div#cookie-notice a.findmore{
+		margin-left:5px;
+	}
+	
+	div#cookie-notice div.intro,
+	div#cookie-notice div.more-info{
+		padding: 10px 9px;
+		font-size:1.1em;
+	}
+	
+	div#cookie-notice div.intro p {
+		font-size: 0.9em;
+		letter-spacing: 0.5px;
+		line-height: 1.5;
+		margin: 0 20px 0 0;
+	}
+	
+	div#cookie-notice div.intro {
+		color: #fff;
+		position: relative;
+		padding-right:28px;
+		height:auto;
+		padding:12px 20px;
+		width:882px;
+		margin:0 auto;
+		text-align:left;
+		width: calc(100% - 40px);
+	}
+	
+	div#cookie-notice div.more-info{
+		display: none;
+		padding-right:40px;
+	}
+	
+	
+	div#cookie-notice a.close,
+	div#cookie-notice button.accept {
+		position: absolute;
+		right: 6px;
+		top: 10px;
+	}
+	div#cookie-notice a.close {
+		width: 12px;
+		height: 12px;
+		overflow: hidden;
+		padding:4px;
+		background: url(close.png) no-repeat center;
+		text-indent: -9999px;
+	}
+	
+/* Mobile to Portrait tablet */
+@media (max-width: 767px) {
+	div#cookie-notice {
+		bottom: 0;
+		top: auto;
+	}
+	.header-wrapper {
+		margin-top: 0 !important;
+	}
+}
